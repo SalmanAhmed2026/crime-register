@@ -331,7 +331,7 @@ aUh(){var s,r=A.ep().b
 if(r==null)s=null
 else{r=r.canvasKitVariant
 if(r==null)r=null
-s=r}r=A.aWU(A.aOD(B.Mz,s==null?"auto":s))
+s=r}r=A.aWU(A.aOD(B.MA,s==null?"auto":s))
 return new A.an(r,new A.awt(),A.a4(r).i("an<1,t>"))},
 aW7(a,b){return b+a},
 ZE(){var s=0,r=A.D(t.e),q,p,o,n,m
@@ -21591,7 +21591,7 @@ r.toString
 A.ha(r)
 q=a.h(0,"swipeEdge")
 q.toString
-return new A.N8(s,r,B.LW[A.c9(q)])},
+return new A.N8(s,r,B.LX[A.c9(q)])},
 CC:function CC(a,b){this.a=a
 this.b=b},
 N8:function N8(a,b,c){this.a=a
@@ -23716,7 +23716,7 @@ q=b.as
 if(a.as!==q)return q?-1:1
 return 0},
 aOv(a,b){var s=A.a4(b).i("an<1,dD>")
-return A.aNQ(!0,A.a5(new A.an(b,new A.a3Z(),s),!0,s.i("aI.E")),a,B.Mf,!0,B.GC,null)},
+return A.aNQ(!0,A.a5(new A.an(b,new A.a3Z(),s),!0,s.i("aI.E")),a,B.Mg,!0,B.GC,null)},
 aOt(a){a.bH()
 a.bl(A.aIO())},
 z5(a){var s=a.a,r=s instanceof A.pb?s:null
@@ -24317,7 +24317,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 zJ(a,b){var s
-if(a.j(0,b))return new A.JL(B.Mt)
+if(a.j(0,b))return new A.JL(B.Mu)
 s=A.b([],t.fJ)
 A.bz("debugDidFindAncestor")
 a.lW(new A.a7f(b,A.ar(t.u),s))
@@ -30644,7 +30644,7 @@ a_a(){var s=this.Q
 s===$&&A.a()
 return s},
 Lg(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Ms
+if(a<0||b<0)return B.Mt
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -30663,7 +30663,7 @@ l.push(new A.f5(n[0],n[1],n[2],n[3],B.kP[m]))}return l},
 dE(a){var s,r=this.a
 r===$&&A.a()
 r=r.a.getGlyphPositionAtCoordinate(a.a,a.b)
-s=B.LX[B.d.aA(r.affinity.value)]
+s=B.LY[B.d.aA(r.affinity.value)]
 return new A.al(B.d.aA(r.pos),s)},
 a_c(a){var s=this.a
 s===$&&A.a()
@@ -33729,7 +33729,7 @@ if(r.f!==B.oL){r.f=B.oL
 r.Rf()}}return r.d.a.a0d(a)},
 Rf(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-a0c(a){if(B.b.p(B.M3,a))return this.f===B.e7
+a0c(a){if(B.b.p(B.M4,a))return this.f===B.e7
 return!1}}
 A.a4v.prototype={
 $0(){return new A.bx(Date.now(),0,!1)},
@@ -39207,7 +39207,7 @@ if(o>0)return s
 return null}}
 A.akE.prototype={
 G(a,b){this.Oo(b,0,b.length,!1)},
-b_(){this.Oo(B.Md,0,0,!0)}}
+b_(){this.Oo(B.Me,0,0,!0)}}
 A.avN.prototype={
 Oo(a,b,c,d){var s=this.b.ap0(a,b,c,d)
 if(s!=null)this.a.he(s,0,s.length,d)}}
@@ -41362,7 +41362,7 @@ return A.C($async$fR,r)},
 D(a){var s,r=this,q=null,p=t.p,o=A.xJ(A.b([A.e1(q,q,B.p5,q,r.f||r.r?q:r.gQX(),q,q,q,q)],p),B.U7,B.Bo)
 if(r.f)p=B.ns
 else{s=r.w
-if(s!=null)p=A.ds(new A.aj(B.kp,A.bk(A.b([B.Ju,B.aL,A.a_(s,q,q,q,q,q,B.bL,q,q),B.cZ,A.iL(!1,B.Z_,B.k,q,B.Q,q,q,q,q,r.gQX(),q,q)],p),B.m,B.fz,B.n),q),q,q)
+if(s!=null)p=A.ds(new A.aj(B.kp,A.bk(A.b([B.Ju,B.aL,A.a_(s,q,q,q,q,q,B.bL,q,q),B.cZ,A.iL(!1,B.YZ,B.k,q,B.Q,q,q,q,q,r.gQX(),q,q)],p),B.m,B.fz,B.n),q),q,q)
 else{p=A.b([new A.CI(A.b([r.alk(),r.ajJ()],p),q)],p)
 if(r.r)p.push(B.a1w)
 p=A.f3(B.bi,p,B.o,B.aT,q)}}return new A.yE(2,A.k3(o,p,q,q),q)},
@@ -41436,7 +41436,7 @@ case 4:s=c===!0&&q.c!=null?2:3
 break
 case 2:k=B.c.aL(m.a.a)
 p=k!==o
-o=p?"Renamed to "+k+" \xe2\u20ac\u201d they must sign in again":"Account updated"
+o=p?"Renamed to "+k+" \u2014 they must sign in again":"Account updated"
 s=5
 return A.k(q.fR(new A.ajw(a,p,m,l),o),$async$tX)
 case 5:case 3:m.K$=n
@@ -41473,7 +41473,7 @@ return A.k(A.iy(null,null,!0,null,new A.ajH(a,o),n,null,!0,t.y),$async$uz)
 case 4:s=c===!0&&q.c!=null?2:3
 break
 case 2:s=5
-return A.k(q.fR(new A.ajI(a,o),"Password changed \xe2\u20ac\u201d "+a.a+" must sign in again"),$async$uz)
+return A.k(q.fR(new A.ajI(a,o),"Password changed \u2014 "+a.a+" must sign in again"),$async$uz)
 case 5:case 3:o.K$=p
 o.y2$=0
 return A.B(null,r)}})
@@ -41541,7 +41541,7 @@ case 1:return A.B(q,r)
 case 2:return A.A(o,r)}})
 return A.C($async$pS,r)},
 ajJ(){var s=this,r=J.eB(s.e)?B.EU:A.aEE(new A.ajP(s),J.bN(s.e),B.on)
-return A.k3(null,r,null,A.aDL(B.Jo,B.YQ,s.r?null:s.ga5B()))},
+return A.k3(null,r,null,A.aDL(B.Jo,B.YO,s.r?null:s.ga5B()))},
 tF(){var s=0,r=A.D(t.H),q=this,p,o,n
 var $async$tF=A.E(function(a,b){if(a===1)return A.A(b,r)
 while(true)switch(s){case 0:p=$.a2()
@@ -41640,7 +41640,7 @@ $1(a){var s=this
 return new A.k9(new A.ajk(s.a,s.b,s.c,s.d,s.e,s.f,s.r),null)},
 $S:72}
 A.ajk.prototype={
-$2(a,b){var s,r,q,p,o=this,n=null,m=o.a,l=o.r,k=t.N,j=t.p,i=A.b([A.e9(!1,B.ae,!1,n,!0,B.o,n,A.er(),o.c,n,n,n,n,n,2,B.K3,B.B,!0,n,!0,n,!1,n,B.ak,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,!1,n,!1,n,!0,n,B.ay,n,n,B.ag,B.ad,n,n,n,n,n,n,n,B.H,n,B.aC,n,n,n,n),B.bX,A.e9(!0,B.ae,!1,n,!0,B.o,n,A.er(),o.d,n,n,n,n,n,2,B.K7,B.B,!0,n,!0,n,!1,n,B.ak,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,!1,n,!1,n,!0,n,B.ay,n,n,B.ag,B.ad,n,n,n,n,n,n,n,B.H,n,B.d_,n,n,n,n),B.bX,A.e9(!1,B.ae,!1,n,!0,B.o,n,A.er(),o.e,n,n,n,n,n,2,B.JT,B.B,!0,n,!0,n,!1,n,B.ak,n,n,n,B.Be,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,!1,n,!1,n,!0,n,B.ay,n,n,B.ag,B.ad,n,n,n,n,n,n,n,B.H,n,B.aC,n,n,n,n),B.bX,A.e9(!0,B.ae,!1,n,!0,B.o,n,A.er(),o.f,n,n,n,n,n,2,B.K1,B.B,!0,n,!0,n,!1,n,B.ak,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,!1,n,!1,n,!0,n,B.ay,n,n,B.ag,B.ad,n,n,n,n,n,n,n,B.H,n,B.aC,n,n,n,n),B.bX,A.yT(B.JQ,!0,B.MQ,new A.ajf(m,b,l),m.a,k)],j)
+$2(a,b){var s,r,q,p,o=this,n=null,m=o.a,l=o.r,k=t.N,j=t.p,i=A.b([A.e9(!1,B.ae,!1,n,!0,B.o,n,A.er(),o.c,n,n,n,n,n,2,B.K4,B.B,!0,n,!0,n,!1,n,B.ak,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,!1,n,!1,n,!0,n,B.ay,n,n,B.ag,B.ad,n,n,n,n,n,n,n,B.H,n,B.aC,n,n,n,n),B.bX,A.e9(!0,B.ae,!1,n,!0,B.o,n,A.er(),o.d,n,n,n,n,n,2,B.K7,B.B,!0,n,!0,n,!1,n,B.ak,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,!1,n,!1,n,!0,n,B.ay,n,n,B.ag,B.ad,n,n,n,n,n,n,n,B.H,n,B.d_,n,n,n,n),B.bX,A.e9(!1,B.ae,!1,n,!0,B.o,n,A.er(),o.e,n,n,n,n,n,2,B.JT,B.B,!0,n,!0,n,!1,n,B.ak,n,n,n,B.Be,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,!1,n,!1,n,!0,n,B.ay,n,n,B.ag,B.ad,n,n,n,n,n,n,n,B.H,n,B.aC,n,n,n,n),B.bX,A.e9(!0,B.ae,!1,n,!0,B.o,n,A.er(),o.f,n,n,n,n,n,2,B.K3,B.B,!0,n,!0,n,!1,n,B.ak,n,n,n,n,n,n,n,1,n,n,!1,"\u2022",n,n,n,n,n,!1,n,!1,n,!0,n,B.ay,n,n,B.ag,B.ad,n,n,n,n,n,n,n,B.H,n,B.aC,n,n,n,n),B.bX,A.yT(B.JQ,!0,B.LU,new A.ajf(m,b,l),m.a,k)],j)
 m=m.a
 if(m==="monitor"){m=A.a_("Monitors these stations *",n,n,n,n,A.o(a).p2.as,n,n,n)
 k=A.a_("They can view and be alerted about these stations and nothing else. They cannot change any record.",n,n,n,n,A.o(a).p2.Q,n,n,n)
@@ -41651,7 +41651,7 @@ s.push(A.aze(A.a_(p,n,n,n,n,n,n,n,n),new A.ajg(b,l,q),l.p(0,p)))}B.b.N(i,A.b([B.
 s=A.b([],t.FG)
 for(r=J.aF(o.b.e),q=t.b7;r.A();){p=r.gL().a
 s.push(new A.eF(p,A.a_(p,n,n,n,n,n,n,n,n),B.bB,n,q))}B.b.N(i,A.b([B.bX,A.yT(B.JR,!0,s,new A.ajh(b,l),m,k)],j))}m=A.qI(A.bk(i,B.m,B.j,B.Y),n,B.B,n,n,n,B.af)
-return A.jt(A.b([A.e8(!1,B.ch,n,n,B.Q,n,n,n,n,new A.aji(a),n,n),A.iL(!1,B.Zb,B.k,n,B.Q,n,n,n,n,new A.ajj(a),n,n)],j),m,B.Z0)},
+return A.jt(A.b([A.e8(!1,B.ch,n,n,B.Q,n,n,n,n,new A.aji(a),n,n),A.iL(!1,B.Zb,B.k,n,B.Q,n,n,n,n,new A.ajj(a),n,n)],j),m,B.Z_)},
 $S:73}
 A.ajf.prototype={
 $1(a){return this.b.$1(new A.aje(this.a,a,this.c))},
@@ -41704,7 +41704,7 @@ if(s!=null)r.n(0,"stations",s)
 return a.eH(r)},
 $S:30}
 A.ajv.prototype={
-$1(a){var s=null,r=A.a_("Account details \xe2\u20ac\u201d "+this.a.a,s,s,s,s,s,s,s,s),q=t.p,p=A.bk(A.b([A.a_("Changing the username signs them out everywhere. Cases they already entered keep the old name against them, which is what an audit record should do.",s,s,s,s,A.o(a).p2.Q,s,s,s),B.cZ,A.e9(!1,B.ae,!1,s,!0,B.o,s,A.er(),this.b,s,s,s,s,s,2,B.K2,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,!1,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.aC,s,s,s,s),B.aL,A.e9(!0,B.ae,!1,s,!0,B.o,s,A.er(),this.c,s,s,s,s,s,2,B.K9,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,!1,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.d_,s,s,s,s)],q),B.m,B.j,B.Y)
+$1(a){var s=null,r=A.a_("Account details \u2014 "+this.a.a,s,s,s,s,s,s,s,s),q=t.p,p=A.bk(A.b([A.a_("Changing the username signs them out everywhere. Cases they already entered keep the old name against them, which is what an audit record should do.",s,s,s,s,A.o(a).p2.Q,s,s,s),B.cZ,A.e9(!1,B.ae,!1,s,!0,B.o,s,A.er(),this.b,s,s,s,s,s,2,B.K0,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,!1,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.aC,s,s,s,s),B.aL,A.e9(!0,B.ae,!1,s,!0,B.o,s,A.er(),this.c,s,s,s,s,s,2,B.K9,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,!1,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.d_,s,s,s,s)],q),B.m,B.j,B.Y)
 return A.jt(A.b([A.e8(!1,B.ch,s,s,B.Q,s,s,s,s,new A.ajt(a),s,s),A.iL(!1,B.Bn,B.k,s,B.Q,s,s,s,s,new A.aju(a),s,s)],q),p,r)},
 $S:50}
 A.ajt.prototype={
@@ -41725,7 +41725,7 @@ if(m==null)m=n.k2
 s=A.ee(8)
 r=t.p
 s=A.bk(A.b([B.Zg,B.aL,o,B.aL,A.cv(q,A.a_("Consider Disable instead. It blocks access just as completely, but keeps the record so the name on past cases can still be traced to someone.",q,q,q,q,A.o(a).p2.Q,q,q,q),B.k,q,q,new A.cm(m,q,q,s,q,q,B.a9),q,q,q,B.om,q,q,q)],r),B.a2,B.j,B.Y)
-return A.jt(A.b([A.e8(!1,B.ch,q,q,B.Q,q,q,q,q,new A.aj8(a),q,q),A.iL(!1,B.YL,B.k,q,B.Q,q,q,q,q,new A.aj9(a),q,A.aDK(n.fy,q,q))],r),s,p)},
+return A.jt(A.b([A.e8(!1,B.ch,q,q,B.Q,q,q,q,q,new A.aj8(a),q,q),A.iL(!1,B.YK,B.k,q,B.Q,q,q,q,q,new A.aj9(a),q,A.aDK(n.fy,q,q))],r),s,p)},
 $S:50}
 A.aj8.prototype={
 $0(){A.bP(this.a,!1).d_(!1)
@@ -41801,9 +41801,9 @@ $1(a){var s=this.b
 return a.av4(A.a5(s,!0,A.i(s).c),this.a.a)},
 $S:30}
 A.ajs.prototype={
-$1(a){var s,r,q,p,o,n,m=this,l=null,k=m.c,j=A.a_("Devices \xe2\u20ac\u201d "+k.a,l,l,l,l,l,l,l,l),i=t.p,h=A.b([A.a_("An operator can only sign in from a registered device. The id is shown on their Settings screen.",l,l,l,l,A.o(a).p2.Q,l,l,l),B.aL],i),g=m.a,f=g.b
+$1(a){var s,r,q,p,o,n,m=this,l=null,k=m.c,j=A.a_("Devices \u2014 "+k.a,l,l,l,l,l,l,l,l),i=t.p,h=A.b([A.a_("An operator can only sign in from a registered device. The id is shown on their Settings screen.",l,l,l,l,A.o(a).p2.Q,l,l,l),B.aL],i),g=m.a,f=g.b
 if(f!=null)h.push(A.a_(f,l,l,l,l,A.dz(l,l,A.o(a).ax.fy,l,l,l,l,l,l,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l))
-else if(J.eB(g.a))h.push(B.YT)
+else if(J.eB(g.a))h.push(B.YS)
 else for(g=J.aF(g.a),f=m.b;g.A();){s=g.gL()
 r=s.c
 q=r?B.hU:B.IG
@@ -41813,15 +41813,15 @@ p=A.a_(p.length===0?s.a:p,l,l,l,l,B.Wv,l,l,l)
 o=s.a
 o=B.c.a5(o,0,B.e.ik(o.length,0,12))
 n=r?"":" \xc2\xb7 revoked"
-n=A.a_(o+"\xe2\u20ac\xa6"+n,l,l,l,l,B.Ww,l,l,l)
+n=A.a_(o+"\u2026"+n,l,l,l,l,B.Ww,l,l,l)
 h.push(A.lh(B.T,!0,l,!0,q,l,l,n,p,r?new A.qL(new A.ajp(f,a,k,s),l,l,l,l,l,l,!1,l,!0,B.YH,l):l,l))}h.push(B.GJ)
 g=m.d
-h.push(A.e9(!1,B.ae,!1,l,!0,B.o,l,A.er(),g,l,l,l,l,l,2,B.K4,B.B,!0,l,!0,l,!1,l,B.ak,l,l,l,l,l,l,l,1,l,l,!1,"\u2022",l,l,l,l,l,!1,l,!1,l,!0,l,B.ay,l,l,B.ag,B.ad,l,l,l,l,l,l,l,B.H,l,B.aC,l,l,l,l))
+h.push(A.e9(!1,B.ae,!1,l,!0,B.o,l,A.er(),g,l,l,l,l,l,2,B.JV,B.B,!0,l,!0,l,!1,l,B.ak,l,l,l,l,l,l,l,1,l,l,!1,"\u2022",l,l,l,l,l,!1,l,!1,l,!0,l,B.ay,l,l,B.ag,B.ad,l,l,l,l,l,l,l,B.H,l,B.aC,l,l,l,l))
 h.push(B.by)
 f=m.e
-h.push(A.e9(!0,B.ae,!1,l,!0,B.o,l,A.er(),f,l,l,l,l,l,2,B.K0,B.B,!0,l,!0,l,!1,l,B.ak,l,l,l,l,l,l,l,1,l,l,!1,"\u2022",l,l,l,l,l,!1,l,!1,l,!0,l,B.ay,l,l,B.ag,B.ad,l,l,l,l,l,l,l,B.H,l,B.aC,l,l,l,l))
+h.push(A.e9(!0,B.ae,!1,l,!0,B.o,l,A.er(),f,l,l,l,l,l,2,B.K2,B.B,!0,l,!0,l,!1,l,B.ak,l,l,l,l,l,l,l,1,l,l,!1,"\u2022",l,l,l,l,l,!1,l,!1,l,!0,l,B.ay,l,l,B.ag,B.ad,l,l,l,l,l,l,l,B.H,l,B.aC,l,l,l,l))
 h=A.bF(A.qI(A.bk(h,B.a2,B.j,B.Y),l,B.B,l,l,l,B.af),l,400)
-return A.jt(A.b([A.e8(!1,B.YM,l,l,B.Q,l,l,l,l,new A.ajq(a),l,l),A.iL(!1,B.YK,B.k,l,B.Q,l,l,l,l,new A.ajr(m.b,a,g,k,f),l,l)],i),h,j)},
+return A.jt(A.b([A.e8(!1,B.YL,l,l,B.Q,l,l,l,l,new A.ajq(a),l,l),A.iL(!1,B.YJ,B.k,l,B.Q,l,l,l,l,new A.ajr(m.b,a,g,k,f),l,l)],i),h,j)},
 $S:50}
 A.ajp.prototype={
 $0(){var s=this
@@ -41875,7 +41875,7 @@ $1(a){var s=this.a
 return a.av0(!s.b,s.a)},
 $S:30}
 A.aiY.prototype={
-$1(a){var s=null,r=A.e9(!0,B.ae,!0,s,!0,B.o,s,A.er(),this.a,s,s,s,s,s,2,B.JZ,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,!1,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.d_,s,s,s,s)
+$1(a){var s=null,r=A.e9(!0,B.ae,!0,s,!0,B.o,s,A.er(),this.a,s,s,s,s,s,2,B.K_,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,!1,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.d_,s,s,s,s)
 return A.jt(A.b([A.e8(!1,B.ch,s,s,B.Q,s,s,s,s,new A.aiW(a),s,s),A.iL(!1,B.Zc,B.k,s,B.Q,s,s,s,s,new A.aiX(a),s,s)],t.p),r,B.Zn)},
 $S:50}
 A.aiW.prototype={
@@ -42156,7 +42156,7 @@ A.a0W.prototype={
 $1(a){return new A.k9(new A.a0V(this.a,this.b,this.c),null)},
 $S:72}
 A.a0V.prototype={
-$2(a,b){var s=null,r=this.b,q=this.c,p=t.p,o=A.bF(A.bk(A.b([A.a_("This replaces the 14-day limit for "+this.a.gog()+". The case shows as Extended, not overdue, until the new date passes.",s,s,s,s,A.o(a).p2.Q,s,s,s),B.cZ,A.e9(!0,B.ae,!1,s,!0,B.o,s,A.er(),r,s,s,s,s,s,2,B.JV,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,new A.a0R(a,b,r),!1,s,!0,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.aC,s,s,s,s),B.aL,A.e9(!0,B.ae,!1,s,!0,B.o,s,A.er(),q,s,s,s,s,s,2,B.K6,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,2,s,s,!1,"\u2022",s,new A.a0S(b),s,s,s,!1,s,!1,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.Uc,s,s,s,s)],p),B.a2,B.j,B.Y),s,400),n=A.e8(!1,B.ch,s,s,B.Q,s,s,s,s,new A.a0T(a),s,s)
+$2(a,b){var s=null,r=this.b,q=this.c,p=t.p,o=A.bF(A.bk(A.b([A.a_("This replaces the 14-day limit for "+this.a.gog()+". The case shows as Extended, not overdue, until the new date passes.",s,s,s,s,A.o(a).p2.Q,s,s,s),B.cZ,A.e9(!0,B.ae,!1,s,!0,B.o,s,A.er(),r,s,s,s,s,s,2,B.JW,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,new A.a0R(a,b,r),!1,s,!0,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.aC,s,s,s,s),B.aL,A.e9(!0,B.ae,!1,s,!0,B.o,s,A.er(),q,s,s,s,s,s,2,B.K6,B.B,!0,s,!0,s,!1,s,B.ak,s,s,s,s,s,s,s,2,s,s,!1,"\u2022",s,new A.a0S(b),s,s,s,!1,s,!1,s,!0,s,B.ay,s,s,B.ag,B.ad,s,s,s,s,s,s,s,B.H,s,B.Uc,s,s,s,s)],p),B.a2,B.j,B.Y),s,400),n=A.e8(!1,B.ch,s,s,B.Q,s,s,s,s,new A.a0T(a),s,s)
 return A.jt(A.b([n,A.iL(!1,B.Zk,B.k,s,B.Q,s,s,s,s,r.a.a.length===0||B.c.aL(q.a.a).length===0?s:new A.a0U(a),s,s)],p),o,B.Zm)},
 $S:73}
 A.a0R.prototype={
@@ -42197,16 +42197,16 @@ A.a0N.prototype={
 $2(a,b){var s,r,q,p=this,o=null,n=A.a_("This writes the disposal date to the Google Sheet and stops the 14-day alert for "+p.b.gog()+".",o,o,o,o,A.o(a).p2.Q,o,o,o),m=p.a,l=m.a,k=A.b([],t.FG)
 for(s=t.b7,r=0;r<5;++r){q=B.pJ[r]
 k.push(new A.eF(q,A.a_(q,o,o,o,o,o,o,o,o),B.bB,o,s))}s=t.p
-l=A.b([n,B.cZ,A.yT(B.JX,!1,k,new A.a0I(m,b),l,t.N)],s)
+l=A.b([n,B.cZ,A.yT(B.JY,!1,k,new A.a0I(m,b),l,t.N)],s)
 if(A.ZK(m.a))B.b.N(l,A.b([B.aL,A.e9(!0,B.ae,!1,o,!0,B.o,o,A.er(),p.c,o,o,o,o,o,2,B.JN,B.B,!0,o,!0,o,!1,o,B.ak,o,o,o,o,o,o,o,1,o,o,!1,"\u2022",o,new A.a0J(b),o,o,o,!1,o,!1,o,!0,o,B.ay,o,o,B.ag,B.ad,o,o,o,o,o,o,o,B.H,o,B.d_,o,o,o,o)],s))
 l.push(B.aL)
 l.push(A.e9(!0,B.ae,!1,o,!0,B.o,o,A.er(),p.d,o,o,o,o,o,2,B.JO,B.B,!0,o,!0,o,!1,o,B.ak,o,o,o,o,o,o,o,1,o,o,!1,"\u2022",o,o,o,o,o,!1,o,!1,o,!0,o,B.ay,o,o,B.ag,B.ad,o,o,o,o,o,o,o,B.H,o,B.aC,o,o,o,o))
 l.push(B.aL)
 n=p.e
-l.push(A.e9(!0,B.ae,!1,o,!0,B.o,o,A.er(),n,o,o,o,o,o,2,B.JY,B.B,!0,o,!0,o,!1,o,B.ak,o,o,o,o,o,o,o,1,o,o,!1,"\u2022",o,o,o,o,new A.a0K(a,b,n),!1,o,!0,o,!0,o,B.ay,o,o,B.ag,B.ad,o,o,o,o,o,o,o,B.H,o,B.aC,o,o,o,o))
+l.push(A.e9(!0,B.ae,!1,o,!0,B.o,o,A.er(),n,o,o,o,o,o,2,B.JZ,B.B,!0,o,!0,o,!1,o,B.ak,o,o,o,o,o,o,o,1,o,o,!1,"\u2022",o,o,o,o,new A.a0K(a,b,n),!1,o,!0,o,!0,o,B.ay,o,o,B.ag,B.ad,o,o,o,o,o,o,o,B.H,o,B.aC,o,o,o,o))
 l=A.bk(l,B.m,B.j,B.Y)
 n=A.e8(!1,B.ch,o,o,B.Q,o,o,o,o,new A.a0L(a),o,o)
-return A.jt(A.b([n,A.iL(!1,B.YR,B.k,o,B.Q,o,o,o,o,A.ZK(m.a)&&B.c.aL(p.c.a.a).length===0?o:new A.a0M(a),o,o)],s),l,B.Zl)},
+return A.jt(A.b([n,A.iL(!1,B.YQ,B.k,o,B.Q,o,o,o,o,A.ZK(m.a)&&B.c.aL(p.c.a.a).length===0?o:new A.a0M(a),o,o)],s),l,B.Zl)},
 $S:73}
 A.a0I.prototype={
 $1(a){return this.b.$1(new A.a0H(this.a,a))},
@@ -42257,7 +42257,7 @@ af(){var s,r,q,p,o,n,m,l=this,k=null,j="policeStation",i="disposalOfCases"
 l.az()
 s=l.a.c
 r=A.G(t.N,t.QX)
-for(q=0;q<36;++q){p=B.Mx[q]
+for(q=0;q<36;++q){p=B.My[q]
 r.n(0,p,new A.cp(B.av,$.a2()))}l.f!==$&&A.bs()
 l.f=r
 o=r.h(0,"sNo")
@@ -42709,7 +42709,7 @@ b4===$&&A.a()
 b4=b7.F4("Weapon of offence recovered",b4,A.aAz(B.kO,b4),new A.am7(b7))
 b5=b7.x
 b5===$&&A.a()
-c0=A.b([b9,c1,c2,s,r,q,p,o,n,m,l,k,j,h,i,g,f,e,d,b,a,a0,c,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b7.F4("Weapon of offence matched",b5,A.aAz(B.kS,b5),new A.am8(b7)),b7.a96("Name of I/O","nameIO",!0),b7.jB("Disposal",B.J1),b7.a5X("Disposal of cases","disposalOfCases",B.MO)],c0)
+c0=A.b([b9,c1,c2,s,r,q,p,o,n,m,l,k,j,h,i,g,f,e,d,b,a,a0,c,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b7.F4("Weapon of offence matched",b5,A.aAz(B.kS,b5),new A.am8(b7)),b7.a96("Name of I/O","nameIO",!0),b7.jB("Disposal",B.J1),b7.a5X("Disposal of cases","disposalOfCases",B.MP)],c0)
 if(b7.Q)c0.push(b7.a98("Transferred to","transferredTo","Station, agency or court the case was sent to",2,!0))
 c0.push(b7.a95("Disposal number","disposalNumber"))
 c0.push(b7.Oy("Date of disposal","dateOfDisposal","Filling this stops the deadline clock"))
@@ -43319,8 +43319,8 @@ h=A.a_("Server connection",j,j,j,j,g.as,j,j,j)
 p=k.r
 o=p.a.a
 o=A.a_(o.length===0?"Not set":o,1,B.aq,j,j,r,j,j,j)
-p=A.lL(!0,!1,p,B.JW,!1,j,j,B.Bf,1,!1,new A.aqy(k),j,j,j,j,!1,j,j,B.H,B.aC,j,j)
-n=A.aF7(B.Jt,B.Z2,k.x?j:k.gaio())
+p=A.lL(!0,!1,p,B.JX,!1,j,j,B.Bf,1,!1,new A.aqy(k),j,j,j,j,!1,j,j,B.H,B.aC,j,j)
+n=A.aF7(B.Jt,B.Z1,k.x?j:k.gaio())
 g=g.ax
 g=A.a_("THIS DEVICE",j,j,j,j,g==null?j:g.AD(i.ax.b,B.bf,0.8),j,j,j)
 r=A.a_("Send this id to your administrator so they can register this device. You cannot sign in until they have.",j,j,j,j,r,j,j,j)
@@ -43420,7 +43420,7 @@ g=t.p
 s=A.b([],g)
 if(k.c)s.push(B.PN)
 else s.push(A.e1(l,l,B.p5,l,k.gZ_(),l,l,l,"Refresh from Google Sheet"))
-s=A.xJ(s,l,B.YP)
+s=A.xJ(s,l,B.YN)
 r=A.b([],g)
 q=j.d
 if(q!=null)r.push(new A.Yb(q,l))
@@ -43776,7 +43776,7 @@ case 2:s=5
 return A.k(p.as2(),$async$uG)
 case 5:case 3:return A.B(null,r)}})
 return A.C($async$uG,r)},
-D(a){var s,r,q,p,o,n,m,l=this,k=null,j=A.o(a),i=a.f4(t.T).x.a,h=A.xJ(k,k,B.YU),g=j.ax,f=g.d
+D(a){var s,r,q,p,o,n,m,l=this,k=null,j=A.o(a),i=a.f4(t.T).x.a,h=A.xJ(k,k,B.YT),g=j.ax,f=g.d
 if(f==null)f=g.b
 s=i==null
 r=(s?k:i.d==="admin")===!0?B.p_:B.IF
@@ -43804,7 +43804,7 @@ r=g.fy
 p.push(new A.dg(B.d4,k,k,A.aAj(A.bR(B.kB,r,k,18),A.a_("Remove my email",k,k,k,k,A.dz(k,k,r,k,k,k,k,k,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),f),k))}p.push(B.ev)
 p.push(l.u9(j,"SERVER CONNECTION"))
 p.push(B.aL)
-p.push(A.e9(!0,B.ae,!1,k,!0,B.o,k,A.er(),l.d,k,k,k,k,k,2,B.K_,B.B,!0,k,!0,k,!1,k,B.ak,k,k,k,B.Bf,k,k,k,1,k,k,!1,"\u2022",k,k,k,k,k,!1,k,!1,k,!0,k,B.ay,k,k,B.ag,B.ad,k,k,k,k,k,k,k,B.H,k,B.aC,k,k,k,k))
+p.push(A.e9(!0,B.ae,!1,k,!0,B.o,k,A.er(),l.d,k,k,k,k,k,2,B.K1,B.B,!0,k,!0,k,!1,k,B.ak,k,k,k,B.Bf,k,k,k,1,k,k,!1,"\u2022",k,k,k,k,k,!1,k,!1,k,!0,k,B.ay,k,k,B.ag,B.ad,k,k,k,k,k,k,k,B.H,k,B.aC,k,k,k,k))
 p.push(B.aL)
 p.push(A.a4H(B.J8,B.Bn,l.gaii()))
 p.push(B.ev)
@@ -43827,10 +43827,10 @@ f=l.x
 s=f===0
 f=A.a_(s?"Nothing waiting to sync":""+f+" case(s) waiting to sync",k,k,k,k,k,k,k,k)
 if(l.w)s=B.Tf
-else{r=A.e8(!1,B.YZ,k,k,B.Q,k,k,k,k,s?k:l.gajN(),k,k)
-s=r}p.push(A.kM(A.lh(k,k,k,!0,B.Jg,k,k,B.YV,f,s,k),k,k))
+else{r=A.e8(!1,B.YY,k,k,B.Q,k,k,k,k,s?k:l.gajN(),k,k)
+s=r}p.push(A.kM(A.lh(k,k,k,!0,B.Jg,k,k,B.YU,f,s,k),k,k))
 p.push(B.by)
-p.push(A.kM(A.lh(k,k,k,!0,B.Jw,k,k,B.YO,B.Z3,A.e8(!1,B.YW,k,k,B.Q,k,k,k,k,l.ga6X(),k,k),k),k,k))
+p.push(A.kM(A.lh(k,k,k,!0,B.Jw,k,k,B.YM,B.Z2,A.e8(!1,B.YV,k,k,B.Q,k,k,k,k,l.ga6X(),k,k),k),k,k))
 p.push(B.ev)
 s=g.RG
 f=s==null?g.k2:s
@@ -43858,7 +43858,7 @@ $S:0}
 A.atW.prototype={
 $1(a){var s=null,r=this.a.x
 r=A.a_(r>0?"You have "+r+" case(s) not yet synced. Signing out keeps them on this device, but they cannot be sent until someone signs in again.":"You will need your username and password to sign back in.",s,s,s,s,s,s,s,s)
-return A.jt(A.b([A.e8(!1,B.ch,s,s,B.Q,s,s,s,s,new A.atU(a),s,s),A.iL(!1,B.Bl,B.k,s,B.Q,s,s,s,s,new A.atV(a),s,s)],t.p),r,B.YS)},
+return A.jt(A.b([A.e8(!1,B.ch,s,s,B.Q,s,s,s,s,new A.atU(a),s,s),A.iL(!1,B.Bl,B.k,s,B.Q,s,s,s,s,new A.atV(a),s,s)],t.p),r,B.YR)},
 $S:50}
 A.atU.prototype={
 $0(){A.bP(this.a,!1).d_(!1)
@@ -45116,7 +45116,7 @@ s=k.b.x
 s===$&&A.a()
 r=B.d.h4(8*s)
 for(s=k.e,q=8*s,p=k.f,s=s<1,o=k.c,n=0;n<q;++n){m=B.e.aP(n-r,8)
-l=s?147:B.LY[m]
+l=s?147:B.LZ[m]
 j.sah(A.M(l,o.gm()>>>16&255,o.gm()>>>8&255,o.gm()&255))
 a.e1(p,j)
 a.KP(0.7853981633974483)}a.c4()},
@@ -48625,7 +48625,7 @@ n=o.e
 o=o.cx
 r=q.gaf3()
 q.a.toString
-return new A.Dm(p,p,p,new A.aqz(),p,p,p,p,p,n,B.Ox,p,p,p,B.Mk,q.gafb(),o,p,B.XD,s,p,r,p,p,B.pt,!1,!1,p,p,p,new A.pm(q,t.bT))},
+return new A.Dm(p,p,p,new A.aqz(),p,p,p,p,p,n,B.Ox,p,p,p,B.Ml,q.gafb(),o,p,B.XD,s,p,r,p,p,B.pt,!1,!1,p,p,p,new A.pm(q,t.bT))},
 D(a){var s,r=null,q=A.mM(!1,!1,this.a6m(a),r,r,r,r,!0,r,r,r,new A.aqA(),r,r)
 this.a.toString
 s=this.d
@@ -48929,7 +48929,7 @@ A.vZ.prototype={
 H(){return"_CornerId."+this.b}}
 A.lZ.prototype={}
 A.u1.prototype={
-lm(){var s,r,q=this,p=A.aVk(B.Mw,new A.aaP(q,q.b.gbg().a1(0,q.a.gbg()))),o=q.a
+lm(){var s,r,q=this,p=A.aVk(B.Mx,new A.aaP(q,q.b.gbg().a1(0,q.a.gbg()))),o=q.a
 o.toString
 s=p.a
 o=q.pQ(o,s)
@@ -49916,7 +49916,7 @@ p=q.ax
 if(p!=null)p.ad()
 q.dn()}this.al()},
 a7M(a,b){var s,r=null,q=A.b([],t.p)
-for(s=0;q.length<7;s=(s+1)%7)q.push(new A.fk(!0,new A.fG(B.S,r,r,A.a_(B.MC[s],r,r,r,r,a,r,r,r),r),r))
+for(s=0;q.length<7;s=(s+1)%7)q.push(new A.fk(!0,new A.fG(B.S,r,r,A.a_(B.MD[s],r,r,r,r,a,r,r,r),r),r))
 return q},
 D(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0=A.bf(a1,B.A,t.v)
 a0.toString
@@ -50500,7 +50500,7 @@ A.asu.prototype={
 $2(a,b){return this.a.t$.bV(a,this.b)},
 $S:11}
 A.QY.prototype={
-gDM(){return B.MN},
+gDM(){return B.MO},
 HZ(a){var s
 switch(a.a){case 0:s=this.d.b
 break
@@ -51466,7 +51466,7 @@ else{n=c.gmr()
 j=n.y
 n=j==null?A.i(n).i("a6.T").a(j):j
 n.toString
-n=B.My[A.azZ(n)-1]+", "+B.px[A.bq(n)-1]+" "+A.cy(n)}j=A.bH(a1,B.as)
+n=B.Mz[A.azZ(n)-1]+", "+B.px[A.bq(n)-1]+" "+A.cy(n)}j=A.bH(a1,B.as)
 j=j==null?b:j.gbP()
 j=(j==null?B.K:j).I1(0,1.3)
 h=c.a83(a1).ab(0,14*j.a/14)
@@ -51551,7 +51551,7 @@ A.VU.prototype={
 jK(){return this.cy},
 lA(a){this.aw()},
 ir(a){a.toString
-return B.MF[A.c9(a)]},
+return B.MG[A.c9(a)]},
 iE(){var s=this.y
 return(s==null?A.i(this).i("a6.T").a(s):s).a}}
 A.VT.prototype={
@@ -55013,7 +55013,7 @@ A.asI.prototype={
 $2(a,b){return this.a.bV(a,b)},
 $S:11}
 A.RS.prototype={
-gDM(){return B.MB},
+gDM(){return B.MC},
 HZ(a){var s,r=this
 switch(a.a){case 0:s=r.d.z
 break
@@ -57111,7 +57111,7 @@ A.Kj.prototype={
 Vj(a,b,c,d,e,f){return A.aNs(a,b,c,d,e,f)}}
 A.MO.prototype={
 a5H(a){var s=t.Tr
-return A.a5(new A.an(B.MD,new A.acc(a),s),!0,s.i("aI.E"))},
+return A.a5(new A.an(B.ME,new A.acc(a),s),!0,s.i("aI.E"))},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
 if(J.T(b)!==A.x(this))return!1
@@ -57272,7 +57272,7 @@ s=k?p.gJu():o
 s=A.fm(!1,o,k,A.aEC(q,B.T,o,o,o,r),o,!0,o,o,o,o,o,new A.Sk(o,m.y),o,o,o,o,o,s,o,o,o,o,o,o,o)
 return new A.At(new A.aQ(A.b0(o,o,o,o,o,!0,o,o,o,o,k,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o),!1,!1,!1,!1,s,o),o)}}
 A.wE.prototype={
-a3(){return new A.FI(B.Mg,this.$ti.i("FI<1>"))}}
+a3(){return new A.FI(B.Mh,this.$ti.i("FI<1>"))}}
 A.FI.prototype={
 af(){this.az()
 this.SQ()},
@@ -61900,7 +61900,7 @@ o=new A.lN(o,B.H,B.aa,n.j(0,B.K)?new A.eo(1):n,j,j,j,j,B.aj,j)
 o.oK()
 i.push(new A.iu(p,p>=12,o,new A.anC(k,q)))}return i},
 NA(a,b){var s,r,q,p,o,n,m,l=this,k=null,j=A.b([],t.sK)
-for(s=t.w,r=0;r<12;++r){q=B.M2[r]
+for(s=t.w,r=0;r<12;++r){q=B.M3[r]
 p=l.e
 p===$&&A.a()
 o=l.c
@@ -61919,7 +61919,7 @@ p=new A.lN(o,B.H,B.aa,p.j(0,B.K)?new A.eo(1):p,k,k,k,k,B.aj,k)
 p.oK()
 j.push(new A.iu(q.a,!1,p,new A.anB(l,q)))}return j},
 NF(a,b){var s,r,q,p,o,n,m,l,k=null,j=A.b([],t.sK)
-for(s=t.w,r=0;r<12;++r){q=B.M1[r]
+for(s=t.w,r=0;r<12;++r){q=B.M2[r]
 p=q.b
 this.e===$&&A.a()
 o=A.cq(k,b,p<10?"0"+p:B.e.k(p))
@@ -62318,7 +62318,7 @@ return new A.Hb(new A.b4(s,t.am),new A.lA(B.cL,A.iU(B.po,t.iF),$.a2(),t.dX),s,A.
 A.Hb.prototype={
 gf8(){var s,r,q,p=this,o=p.d
 if(o===$){s=p.a.z
-r=A.iU(B.MG,t.CI)
+r=A.iU(B.MH,t.CI)
 q=$.a2()
 p.d!==$&&A.a0()
 o=p.d=new A.lA(s,r,q,t.rP)}return o},
@@ -65341,7 +65341,7 @@ return new A.pn(r.a.cX(s.giC()),r.b,r.c)},
 dE(a){var s=this.b
 return s.a.c.dE(a.a1(0,s.giC()))},
 vi(){var s,r,q=this.b,p=q.giC()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Me
+if(!isFinite(p.a)||!isFinite(p.b))return B.Mf
 s=q.f
 if(s==null){s=q.a.c.vi()
 q.f=s}if(p.j(0,B.f))r=s
@@ -74635,7 +74635,7 @@ break
 case 1:return A.B(q,r)}})
 return A.C($async$FH,r)},
 a9B(a,b){var s,r,q,p
-if(a===b)return B.Mm
+if(a===b)return B.Mn
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.iu(B.fk,a)
@@ -76510,7 +76510,7 @@ this.fa()}}
 A.vV.prototype={
 k(a){return"Entry#"+A.b6(this)+"("+this.d.k(0)+")"}}
 A.xz.prototype={
-a3(){return new A.Ql(A.ar(t.me),B.Mh,null,null)},
+a3(){return new A.Ql(A.ar(t.me),B.Mi,null,null)},
 auN(a,b){return A.aIu().$2(a,b)},
 arM(a,b){return A.aVM().$2(a,b)}}
 A.Ql.prototype={
@@ -78174,7 +78174,7 @@ s.a.push(r.gafN())
 r.e=p}return p},
 gQJ(){var s=this.f
 if(s===$){s!==$&&A.a0()
-s=this.f=new A.anL(1,B.ME,B.ci)}return s},
+s=this.f=new A.anL(1,B.MF,B.ci)}return s},
 ghE(){var s=this.z
 s=s==null?null:$.ca().d===s
 return s===!0},
@@ -78841,7 +78841,7 @@ h.Hm()
 r=h.gaas()
 q=q.kD
 h.e!==$&&A.bs()
-h.e=new A.Oq(s,new A.cl(B.Ok,l),new A.pN(),p,B.ew,0,k,h.gadl(),h.gadn(),r,B.ew,0,j,h.gadf(),h.gadh(),r,i,B.Mu,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Ke(),new A.Ke())
+h.e=new A.Oq(s,new A.cl(B.Ok,l),new A.pN(),p,B.ew,0,k,h.gadl(),h.gadn(),r,B.ew,0,j,h.gadf(),h.gadh(),r,i,B.Mv,f,g.CW,g.cx,g.cy,o,g,n,m,g.x,q,new A.Ke(),new A.Ke())
 return h},
 yR(a,b){var s,r,q,p=this,o=p.a.c,n=o.a.a.length
 if(n<a.b||n<a.a)return
@@ -82368,7 +82368,7 @@ A.ay.prototype={
 j(a,b){if(b==null)return!1
 if(J.T(b)!==A.x(this))return!1
 return b instanceof A.ay&&b.a===this.a&&b.d===this.d&&A.d5(null,null)},
-gB(a){return A.R(this.a,"MaterialIcons",null,this.d,A.cf(B.Mj),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gB(a){return A.R(this.a,"MaterialIcons",null,this.d,A.cf(B.Mk),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.c.iz(B.e.kc(this.a,16).toUpperCase(),5,"0")+")"}}
 A.pt.prototype={
 c5(a){return!this.w.j(0,a.w)},
@@ -83422,7 +83422,7 @@ g=s?d:b.y
 b=s?d:b.ch
 if(b==null)b=B.ef
 s=s&&d
-f=new A.Aq(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.ti(d),B.Ml,s===!0)
+f=new A.Aq(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.ti(d),B.Mm,s===!0)
 if(!f.j(0,e.e))e.J(new A.aqR(e,f))},
 Iz(){this.uQ()},
 Wi(){if(this.d==null)this.uQ()},
@@ -83770,7 +83770,7 @@ r.N(0,s.Zr(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Mq[p]
+for(;!1;++p){o=B.Mr[p]
 n=l.c
 n.toString
 m=new A.hK(o.Ik(n),null,!0,B.mG,B.co,new A.rn(new ($.ZY())(B.co)),B.co)
@@ -84120,7 +84120,7 @@ D(a){var s,r,q=this,p=null,o=q.gacP(),n=A.iN(a),m=q.aT$,l=q.d
 l===$&&A.a()
 s=q.a.ax
 if(l.gM()==null){r=q.gNk()
-r=J.jQ(r.slice(0),A.a4(r).c)}else r=B.Mr
+r=J.jQ(r.slice(0),A.a4(r).c)}else r=B.Ms
 return new A.pq(p,new A.d3(new A.abT(q,a),A.A9(B.c7,A.aCi(!1,A.azg(A.mM(!0,p,A.vG(m,new A.ub(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n)),o,q.gacI(),p,p,o),p,t.w3),p)}}
 A.abS.prototype={
 $1(a){var s=this.a.c
@@ -89597,7 +89597,7 @@ r.zW()
 return s.b0()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gFJ(),p=0;p<s.length;s.length===r||(0,A.N)(s),++p)s[p].F(q)
-o.b=B.Mi
+o.b=B.Mj
 o.y=!1
 o.dn()},
 ef(a,b){return a.mL(b)},
@@ -97905,8 +97905,8 @@ B.D5=new A.cm(null,null,B.CO,null,null,null,B.a9)
 B.F_=new A.n(1006632960)
 B.vY=new A.h(0,4)
 B.De=new A.bt(0.5,B.X,B.F_,B.vY,10)
-B.MP=A.b(s([B.De]),t.V)
-B.D6=new A.cm(null,null,null,B.h7,B.MP,null,B.a9)
+B.MQ=A.b(s([B.De]),t.V)
+B.D6=new A.cm(null,null,null,B.h7,B.MQ,null,B.a9)
 B.D7=new A.a07(6,"scaleDown")
 B.ag=new A.JA(0,"tight")
 B.n9=new A.JA(5,"strut")
@@ -98130,7 +98130,7 @@ B.Ew=new A.aiw()
 B.ai=new A.PQ()
 B.d7=new A.aiz()
 B.eF=new A.PT(0,0,0,0)
-B.Ml=A.b(s([]),A.au("H<a2K>"))
+B.Mm=A.b(s([]),A.au("H<a2K>"))
 B.a1L=new A.aiC()
 B.dW=new A.Qb()
 B.c3=new A.Qc()
@@ -98160,8 +98160,8 @@ B.EI=new A.aw1()
 B.nr=new A.JJ(0,"pixel")
 B.EJ=new A.JJ(1,"viewport")
 B.EN=new A.oI(null,null,null,null,null,null,null)
-B.Mn=A.b(s([]),t.Hb)
-B.EO=new A.JM(B.Mn)
+B.Mo=A.b(s([]),t.Hb)
+B.EO=new A.JM(B.Mo)
 B.jH=new A.my(0,"disposed")
 B.dY=new A.my(1,"overdue")
 B.jI=new A.my(2,"extended")
@@ -98174,8 +98174,8 @@ B.Z8=new A.be("No accounts yet.",null,null,null,null,null,null,null,null,null,nu
 B.ET=new A.fG(B.S,null,null,B.Z8,null)
 B.HP=new A.a8(32,32,32,32)
 B.bL=new A.lK(2,"center")
-B.YX=new A.be("No stations yet.\nAdd one before creating operators.",null,null,B.bL,null,null,null,null,null,null,null)
-B.PO=new A.aj(B.HP,B.YX,null)
+B.YW=new A.be("No stations yet.\nAdd one before creating operators.",null,null,B.bL,null,null,null,null,null,null,null)
+B.PO=new A.aj(B.HP,B.YW,null)
 B.EU=new A.fG(B.S,null,null,B.PO,null)
 B.a1X=new A.aiV(0,"material")
 B.nt=new A.jC(4,0,null,null,null,null,null,null,null,null)
@@ -98751,17 +98751,17 @@ B.JQ=new A.d2(null,null,null,"Role",null,null,null,null,null,null,null,null,null
 B.JR=new A.d2(null,null,null,"Station *",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.JT=new A.d2(null,null,null,"Email",null,null,null,"Optional, for reports and alerts",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.JU=new A.d2(null,null,null,"New password",null,null,null,"At least 8 characters, not all digits",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.JV=new A.d2(null,null,null,"Extended to *",null,null,null,"The date the court granted",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.kI,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.JW=new A.d2(null,null,null,"Web App URL",null,null,null,"Must end in /exec, not /dev",null,null,"https://script.google.com/macros/s/\u2026/exec",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.JX=new A.d2(null,null,null,"Disposal status",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.JY=new A.d2(null,null,null,"Date of disposal",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.kI,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.JZ=new A.d2(null,null,null,"Station name",null,null,null,"There is no limit on how many you add",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.K_=new A.d2(null,null,null,"Web App URL",null,null,null,"Must end in /exec, not /dev",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.K0=new A.d2(null,null,null,"Label",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.K1=new A.d2(null,null,null,"Password *",null,null,null,"At least 12 characters, not all digits",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.K2=new A.d2(null,null,null,"Username",null,null,null,"What they type to sign in \xe2\u20ac\u201d 3+ characters",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.K3=new A.d2(null,null,null,"Username *",null,null,null,"At least 3 characters",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.K4=new A.d2(null,null,null,"Register a device id",null,null,null,null,null,null,"Paste from the operator\xe2\u20ac\u2122s Settings screen",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.JV=new A.d2(null,null,null,"Register a device id",null,null,null,null,null,null,"Paste from the operator\u2019s Settings screen",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.JW=new A.d2(null,null,null,"Extended to *",null,null,null,"The date the court granted",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.kI,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.JX=new A.d2(null,null,null,"Web App URL",null,null,null,"Must end in /exec, not /dev",null,null,"https://script.google.com/macros/s/\u2026/exec",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.JY=new A.d2(null,null,null,"Disposal status",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.JZ=new A.d2(null,null,null,"Date of disposal",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.kI,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.K_=new A.d2(null,null,null,"Station name",null,null,null,"There is no limit on how many you add",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.K0=new A.d2(null,null,null,"Username",null,null,null,"What they type to sign in \u2014 3+ characters",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.K1=new A.d2(null,null,null,"Web App URL",null,null,null,"Must end in /exec, not /dev",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.K2=new A.d2(null,null,null,"Label",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.K3=new A.d2(null,null,null,"Password *",null,null,null,"At least 12 characters, not all digits",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
+B.K4=new A.d2(null,null,null,"Username *",null,null,null,"At least 3 characters",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.Jn=new A.bK(B.kE,null,null,null,null)
 B.K5=new A.d2(null,null,null,"Username",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.Jn,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
 B.K6=new A.d2(null,null,null,"Reason *",null,null,null,null,null,null,"e.g. Remand granted, further investigation",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
@@ -98877,12 +98877,12 @@ B.a0E=new A.jm(5,"disposed")
 B.C0=new A.jm(6,"pendingTrial")
 B.C1=new A.jm(7,"needsAttention")
 B.LK=A.b(s([B.BY,B.BZ,B.a0C,B.C_,B.a0D,B.a0E,B.C0,B.C1]),A.au("H<jm>"))
-B.LZ=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
-B.JB=new A.lb(B.LZ,"image/png")
-B.LU=A.b(s([71,73,70,56,55,97]),t.Z)
-B.JF=new A.lb(B.LU,"image/gif")
-B.LV=A.b(s([71,73,70,56,57,97]),t.Z)
-B.JG=new A.lb(B.LV,"image/gif")
+B.M_=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
+B.JB=new A.lb(B.M_,"image/png")
+B.LV=A.b(s([71,73,70,56,55,97]),t.Z)
+B.JF=new A.lb(B.LV,"image/gif")
+B.LW=A.b(s([71,73,70,56,57,97]),t.Z)
+B.JG=new A.lb(B.LW,"image/gif")
 B.KK=A.b(s([255,216,255]),t.Z)
 B.JE=new A.lb(B.KK,"image/jpeg")
 B.Lx=A.b(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
@@ -98931,18 +98931,25 @@ B.ZN=new A.b5(22,0)
 B.ZO=new A.b5(23,0)
 B.LT=A.b(s([B.Bs,B.Bw,B.Bx,B.By,B.Bz,B.BA,B.BB,B.BC,B.BD,B.BE,B.Bt,B.Bu,B.Bv,B.ZE,B.ZF,B.ZG,B.ZH,B.ZI,B.ZJ,B.ZK,B.ZL,B.ZM,B.ZN,B.ZO]),t.JN)
 B.pw=A.b(s(["Pending","Yes","No"]),t.s)
+B.Zd=new A.be("Monitoring Officer (read only)",null,null,null,null,null,null,null,null,null,null)
+B.GM=new A.eF("monitor",B.Zd,B.bB,null,t.b7)
+B.YP=new A.be("Operator \u2014 one station",null,null,null,null,null,null,null,null,null,null)
+B.GN=new A.eF("operator",B.YP,B.bB,null,t.b7)
+B.Z4=new A.be("Administrator \u2014 all",null,null,null,null,null,null,null,null,null,null)
+B.GO=new A.eF("admin",B.Z4,B.bB,null,t.b7)
+B.LU=A.b(s([B.GM,B.GN,B.GO]),t.FG)
 B.TS=new A.CC(0,"left")
 B.TT=new A.CC(1,"right")
-B.LW=A.b(s([B.TS,B.TT]),A.au("H<CC>"))
+B.LX=A.b(s([B.TS,B.TT]),A.au("H<CC>"))
 B.aB=new A.CO(0,"upstream")
-B.LX=A.b(s([B.aB,B.i]),A.au("H<CO>"))
+B.LY=A.b(s([B.aB,B.i]),A.au("H<CO>"))
 B.b1=new A.qM(0,"rtl")
 B.aa=new A.qM(1,"ltr")
 B.kP=A.b(s([B.b1,B.aa]),A.au("H<qM>"))
 B.px=A.b(s(["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]),t.s)
 B.py=A.b(s(["January","February","March","April","May","June","July","August","September","October","November","December"]),t.s)
 B.pz=A.b(s([0,0,32776,33792,1,10240,0,0]),t.t)
-B.LY=A.b(s([47,47,47,47,72,97,122,147]),t.t)
+B.LZ=A.b(s([47,47,47,47,72,97,122,147]),t.t)
 B.ZB=new A.b5(0,5)
 B.Zt=new A.b5(0,10)
 B.Zu=new A.b5(0,15)
@@ -98954,10 +98961,10 @@ B.Zz=new A.b5(0,40)
 B.ZA=new A.b5(0,45)
 B.ZC=new A.b5(0,50)
 B.ZD=new A.b5(0,55)
-B.M1=A.b(s([B.Bs,B.ZB,B.Zt,B.Zu,B.Zv,B.Zw,B.Zx,B.Zy,B.Zz,B.ZA,B.ZC,B.ZD]),t.JN)
-B.M2=A.b(s([B.Bv,B.Bw,B.Bx,B.By,B.Bz,B.BA,B.BB,B.BC,B.BD,B.BE,B.Bt,B.Bu]),t.JN)
+B.M2=A.b(s([B.Bs,B.ZB,B.Zt,B.Zu,B.Zv,B.Zw,B.Zx,B.Zy,B.Zz,B.ZA,B.ZC,B.ZD]),t.JN)
+B.M3=A.b(s([B.Bv,B.Bw,B.Bx,B.By,B.Bz,B.BA,B.BB,B.BC,B.BD,B.BE,B.Bt,B.Bu]),t.JN)
 B.pA=A.b(s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none"]),t.s)
-B.M3=A.b(s(["click","scroll"]),t.s)
+B.M4=A.b(s(["click","scroll"]),t.s)
 B.ky=new A.hX(0,100)
 B.Id=new A.hX(1,200)
 B.Ie=new A.hX(2,300)
@@ -98966,28 +98973,28 @@ B.ap=new A.hX(4,500)
 B.If=new A.hX(7,800)
 B.oJ=new A.hX(8,900)
 B.pB=A.b(s([B.ky,B.Id,B.Ie,B.w,B.ap,B.hQ,B.bf,B.If,B.oJ]),A.au("H<hX>"))
-B.Mm=A.b(s([]),t.QP)
+B.Mn=A.b(s([]),t.QP)
 B.pC=A.b(s([]),A.au("H<jv>"))
-B.Mg=A.b(s([]),t.Ug)
+B.Mh=A.b(s([]),t.Ug)
 B.pF=A.b(s([]),A.au("H<aYf>"))
 B.pE=A.b(s([]),A.au("H<mI>"))
-B.Mf=A.b(s([]),t.E)
-B.Mt=A.b(s([]),t.fJ)
-B.Me=A.b(s([]),t.ER)
-B.Mk=A.b(s([]),t.tc)
+B.Mg=A.b(s([]),t.E)
+B.Mu=A.b(s([]),t.fJ)
+B.Mf=A.b(s([]),t.ER)
+B.Ml=A.b(s([]),t.tc)
 B.i2=A.b(s([]),t.jl)
-B.Mr=A.b(s([]),t.wi)
-B.Mq=A.b(s([]),A.au("H<azR<@>>"))
+B.Ms=A.b(s([]),t.wi)
+B.Mr=A.b(s([]),A.au("H<azR<@>>"))
 B.kQ=A.b(s([]),t.AO)
-B.Mi=A.b(s([]),t.D1)
+B.Mj=A.b(s([]),t.D1)
 B.kR=A.b(s([]),t.QF)
 B.pD=A.b(s([]),A.au("H<nJ>"))
-B.Ms=A.b(s([]),t.Lx)
-B.Mu=A.b(s([]),t.fm)
-B.Mh=A.b(s([]),t.p)
-B.Md=A.b(s([]),t.t)
+B.Mt=A.b(s([]),t.Lx)
+B.Mv=A.b(s([]),t.fm)
+B.Mi=A.b(s([]),t.p)
+B.Me=A.b(s([]),t.t)
 B.pG=A.b(s([]),t.ee)
-B.Mj=A.b(s([]),t.XS)
+B.Mk=A.b(s([]),t.XS)
 B.kS=A.b(s(["Pending","Yes","No","Not applicable"]),t.s)
 B.BS=new A.vZ(0,"topLeft")
 B.BV=new A.vZ(3,"bottomRight")
@@ -98997,8 +99004,8 @@ B.BT=new A.vZ(1,"topRight")
 B.BU=new A.vZ(2,"bottomLeft")
 B.a0r=new A.lZ(B.BT,B.BU)
 B.a0s=new A.lZ(B.BU,B.BT)
-B.Mw=A.b(s([B.a0q,B.a0t,B.a0r,B.a0s]),A.au("H<lZ>"))
-B.Mx=A.b(s(["sNo","policeStation","year","firNo","underSection","dateOfReport","accusedInvolved","sec512","injuredDeceased","stolen","recovered","idParade","nameIO","disposalOfCases","disposalNumber","dateOfDisposal","courtName","dateOfCourtDisposal","accusedArrested","transferredTo","accusedInvolvedCount","accusedArrestedCount","arrestedByOperation","arrestedByInvestigation","absconderCount","dateOfOffence","timeOfOffence","timeOfReport","accusedInJcCount","accusedInJc","accusedOnBailCount","accusedOnBail","arrestedCnic","arrestedAddress","absconderCnic","absconderAddress"]),t.s)
+B.Mx=A.b(s([B.a0q,B.a0t,B.a0r,B.a0s]),A.au("H<lZ>"))
+B.My=A.b(s(["sNo","policeStation","year","firNo","underSection","dateOfReport","accusedInvolved","sec512","injuredDeceased","stolen","recovered","idParade","nameIO","disposalOfCases","disposalNumber","dateOfDisposal","courtName","dateOfCourtDisposal","accusedArrested","transferredTo","accusedInvolvedCount","accusedArrestedCount","arrestedByOperation","arrestedByInvestigation","absconderCount","dateOfOffence","timeOfOffence","timeOfReport","accusedInJcCount","accusedInJc","accusedOnBailCount","accusedOnBail","arrestedCnic","arrestedAddress","absconderCnic","absconderAddress"]),t.s)
 B.ea=new A.hy(0,"controlModifier")
 B.eb=new A.hy(1,"shiftModifier")
 B.ec=new A.hy(2,"altModifier")
@@ -99019,14 +99026,14 @@ B.J0=new A.ay(62318,!1)
 B.IK=new A.ay(58751,!1)
 B.QX=new A.wG(B.J0,"Settings",B.IK)
 B.pI=A.b(s([B.QV,B.QW,B.QX]),A.au("H<+icon,label,selected(ay,t,ay)>"))
-B.My=A.b(s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]),t.s)
+B.Mz=A.b(s(["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]),t.s)
 B.EK=new A.rO(0,"auto")
 B.EL=new A.rO(1,"full")
 B.EM=new A.rO(2,"chromium")
-B.Mz=A.b(s([B.EK,B.EL,B.EM]),A.au("H<rO>"))
+B.MA=A.b(s([B.EK,B.EL,B.EM]),A.au("H<rO>"))
 B.pJ=A.b(s(["Challan Submitted","A Class","B Class","C Class","Transferred"]),t.s)
 B.i3=A.b(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
-B.MA=A.b(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.n)
+B.MB=A.b(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.n)
 B.aQ=new A.ez(0,"icon")
 B.b2=new A.ez(1,"input")
 B.ab=new A.ez(2,"label")
@@ -99038,15 +99045,15 @@ B.aV=new A.ez(7,"suffixIcon")
 B.c0=new A.ez(8,"helperError")
 B.ck=new A.ez(9,"counter")
 B.cC=new A.ez(10,"container")
-B.MB=A.b(s([B.aQ,B.b2,B.ab,B.ba,B.bb,B.bc,B.al,B.aV,B.c0,B.ck,B.cC]),A.au("H<ez>"))
-B.MC=A.b(s(["S","M","T","W","T","F","S"]),t.s)
+B.MC=A.b(s([B.aQ,B.b2,B.ab,B.ba,B.bb,B.bc,B.al,B.aV,B.c0,B.ck,B.cC]),A.au("H<ez>"))
+B.MD=A.b(s(["S","M","T","W","T","F","S"]),t.s)
 B.U8=new A.CG("OPERATORS",null)
 B.U9=new A.CG("STATIONS",null)
 B.fl=A.b(s([B.U8,B.U9]),t.p)
 B.bY=new A.f4(1,"fuchsia")
 B.cf=new A.f4(3,"linux")
 B.cg=new A.f4(5,"windows")
-B.MD=A.b(s([B.aA,B.bY,B.a7,B.cf,B.bz,B.cg]),A.au("H<f4>"))
+B.ME=A.b(s([B.aA,B.bY,B.a7,B.cf,B.bz,B.cg]),A.au("H<f4>"))
 B.a0O=new A.h6(0,1)
 B.a0W=new A.h6(0.5,1)
 B.a0Q=new A.h6(0.5375,0.75)
@@ -99058,27 +99065,20 @@ B.a0S=new A.h6(0.8875,0.25)
 B.a0V=new A.h6(0.925,0.5)
 B.a0R=new A.h6(0.9625,0.75)
 B.a0P=new A.h6(1,1)
-B.ME=A.b(s([B.a0O,B.a0W,B.a0Q,B.a0T,B.a0Y,B.a0X,B.a0U,B.a0S,B.a0V,B.a0R,B.a0P]),A.au("H<h6>"))
-B.MF=A.b(s([B.db,B.dc,B.f5,B.e1]),A.au("H<jH>"))
+B.MF=A.b(s([B.a0O,B.a0W,B.a0Q,B.a0T,B.a0Y,B.a0X,B.a0U,B.a0S,B.a0V,B.a0R,B.a0P]),A.au("H<h6>"))
+B.MG=A.b(s([B.db,B.dc,B.f5,B.e1]),A.au("H<jH>"))
 B.kT=A.b(s([!0,!1]),t.HZ)
 B.aU=new A.jf(0,"dial")
 B.bZ=new A.jf(1,"input")
 B.eB=new A.jf(2,"dialOnly")
 B.d0=new A.jf(3,"inputOnly")
-B.MG=A.b(s([B.aU,B.bZ,B.eB,B.d0]),A.au("H<jf>"))
+B.MH=A.b(s([B.aU,B.bZ,B.eB,B.d0]),A.au("H<jf>"))
 B.br=new A.km(0,"label")
 B.b9=new A.km(1,"avatar")
 B.cj=new A.km(2,"deleteIcon")
-B.MN=A.b(s([B.br,B.b9,B.cj]),A.au("H<km>"))
+B.MO=A.b(s([B.br,B.b9,B.cj]),A.au("H<km>"))
 B.kU=A.b(s([0,0,65498,45055,65535,34815,65534,18431]),t.t)
-B.MO=A.b(s(["Pending","Under investigation","Challan Submitted","A Class","B Class","C Class","Transferred"]),t.s)
-B.Zd=new A.be("Monitoring Officer (read only)",null,null,null,null,null,null,null,null,null,null)
-B.GN=new A.eF("monitor",B.Zd,B.bB,null,t.b7)
-B.YN=new A.be("Operator \xe2\u20ac\u201d one station",null,null,null,null,null,null,null,null,null,null)
-B.GM=new A.eF("operator",B.YN,B.bB,null,t.b7)
-B.YJ=new A.be("Administrator \xe2\u20ac\u201d all",null,null,null,null,null,null,null,null,null,null)
-B.GO=new A.eF("admin",B.YJ,B.bB,null,t.b7)
-B.MQ=A.b(s([B.GN,B.GM,B.GO]),t.FG)
+B.MP=A.b(s(["Pending","Under investigation","Challan Submitted","A Class","B Class","C Class","Transferred"]),t.s)
 B.MR=new A.Aa(0,"network")
 B.kV=new A.Aa(1,"cache")
 B.kW=new A.Aa(2,"empty")
@@ -99130,37 +99130,37 @@ B.vz=new A.e(8589935151)
 B.LF=A.b(s([B.vl,null,null,B.vz]),t.L)
 B.vm=new A.e(48)
 B.l6=new A.e(8589935152)
-B.M5=A.b(s([B.vm,null,null,B.l6]),t.L)
+B.M6=A.b(s([B.vm,null,null,B.l6]),t.L)
 B.vn=new A.e(49)
 B.fu=new A.e(8589935153)
-B.M6=A.b(s([B.vn,null,null,B.fu]),t.L)
+B.M7=A.b(s([B.vn,null,null,B.fu]),t.L)
 B.vo=new A.e(50)
 B.ds=new A.e(8589935154)
-B.M7=A.b(s([B.vo,null,null,B.ds]),t.L)
+B.M8=A.b(s([B.vo,null,null,B.ds]),t.L)
 B.vp=new A.e(51)
 B.fv=new A.e(8589935155)
-B.M8=A.b(s([B.vp,null,null,B.fv]),t.L)
+B.M9=A.b(s([B.vp,null,null,B.fv]),t.L)
 B.vq=new A.e(52)
 B.dt=new A.e(8589935156)
-B.M9=A.b(s([B.vq,null,null,B.dt]),t.L)
+B.Ma=A.b(s([B.vq,null,null,B.dt]),t.L)
 B.vr=new A.e(53)
 B.l7=new A.e(8589935157)
-B.Ma=A.b(s([B.vr,null,null,B.l7]),t.L)
+B.Mb=A.b(s([B.vr,null,null,B.l7]),t.L)
 B.vs=new A.e(54)
 B.du=new A.e(8589935158)
-B.Mb=A.b(s([B.vs,null,null,B.du]),t.L)
+B.Mc=A.b(s([B.vs,null,null,B.du]),t.L)
 B.vt=new A.e(55)
 B.fw=new A.e(8589935159)
-B.Mc=A.b(s([B.vt,null,null,B.fw]),t.L)
+B.Md=A.b(s([B.vt,null,null,B.fw]),t.L)
 B.vu=new A.e(56)
 B.dv=new A.e(8589935160)
-B.M_=A.b(s([B.vu,null,null,B.dv]),t.L)
+B.M0=A.b(s([B.vu,null,null,B.dv]),t.L)
 B.vv=new A.e(57)
 B.fx=new A.e(8589935161)
-B.M0=A.b(s([B.vv,null,null,B.fx]),t.L)
-B.MH=A.b(s([B.fs,B.fs,B.ia,null]),t.L)
+B.M1=A.b(s([B.vv,null,null,B.fx]),t.L)
+B.MI=A.b(s([B.fs,B.fs,B.ia,null]),t.L)
 B.i6=new A.e(4294967555)
-B.M4=A.b(s([B.i6,null,B.i6,null]),t.L)
+B.M5=A.b(s([B.i6,null,B.i6,null]),t.L)
 B.c9=new A.e(4294968065)
 B.Lm=A.b(s([B.c9,null,null,B.ds]),t.L)
 B.bU=new A.e(4294968066)
@@ -99171,7 +99171,7 @@ B.ca=new A.e(4294968068)
 B.L9=A.b(s([B.ca,null,null,B.dv]),t.L)
 B.l_=new A.e(4294968321)
 B.Lv=A.b(s([B.l_,null,null,B.l7]),t.L)
-B.MI=A.b(s([B.fr,B.fr,B.i9,null]),t.L)
+B.MJ=A.b(s([B.fr,B.fr,B.i9,null]),t.L)
 B.Lt=A.b(s([B.b_,null,null,B.dr]),t.L)
 B.dn=new A.e(4294968069)
 B.Lp=A.b(s([B.dn,null,null,B.fu]),t.L)
@@ -99182,13 +99182,13 @@ B.dp=new A.e(4294968070)
 B.Lq=A.b(s([B.dp,null,null,B.fw]),t.L)
 B.l0=new A.e(4294968327)
 B.Lw=A.b(s([B.l0,null,null,B.l6]),t.L)
-B.MJ=A.b(s([B.ft,B.ft,B.ib,null]),t.L)
+B.MK=A.b(s([B.ft,B.ft,B.ib,null]),t.L)
 B.fp=new A.e(4294968071)
 B.Lr=A.b(s([B.fp,null,null,B.fv]),t.L)
 B.fq=new A.e(4294968072)
 B.KN=A.b(s([B.fq,null,null,B.fx]),t.L)
-B.MK=A.b(s([B.cQ,B.cQ,B.dq,null]),t.L)
-B.Ol=new A.d1(["*",B.LB,"+",B.LC,"-",B.LD,".",B.LE,"/",B.LF,"0",B.M5,"1",B.M6,"2",B.M7,"3",B.M8,"4",B.M9,"5",B.Ma,"6",B.Mb,"7",B.Mc,"8",B.M_,"9",B.M0,"Alt",B.MH,"AltGraph",B.M4,"ArrowDown",B.Lm,"ArrowLeft",B.Ln,"ArrowRight",B.Lo,"ArrowUp",B.L9,"Clear",B.Lv,"Control",B.MI,"Delete",B.Lt,"End",B.Lp,"Enter",B.Lj,"Home",B.Lq,"Insert",B.Lw,"Meta",B.MJ,"PageDown",B.Lr,"PageUp",B.KN,"Shift",B.MK],A.au("d1<t,U<e?>>"))
+B.ML=A.b(s([B.cQ,B.cQ,B.dq,null]),t.L)
+B.Ol=new A.d1(["*",B.LB,"+",B.LC,"-",B.LD,".",B.LE,"/",B.LF,"0",B.M6,"1",B.M7,"2",B.M8,"3",B.M9,"4",B.Ma,"5",B.Mb,"6",B.Mc,"7",B.Md,"8",B.M0,"9",B.M1,"Alt",B.MI,"AltGraph",B.M5,"ArrowDown",B.Lm,"ArrowLeft",B.Ln,"ArrowRight",B.Lo,"ArrowUp",B.L9,"Clear",B.Lv,"Control",B.MJ,"Delete",B.Lt,"End",B.Lp,"Enter",B.Lj,"Home",B.Lq,"Insert",B.Lw,"Meta",B.MK,"PageDown",B.Lr,"PageUp",B.KN,"Shift",B.ML],A.au("d1<t,U<e?>>"))
 B.L0=A.b(s([42,null,null,8589935146]),t.Z)
 B.L1=A.b(s([43,null,null,8589935147]),t.Z)
 B.L3=A.b(s([45,null,null,8589935149]),t.Z)
@@ -99633,7 +99633,7 @@ B.Oq=new A.d1([B.fZ,-7,B.eC,1,B.j_,7,B.dD,-1],A.au("d1<lP,l>"))
 B.Or=new A.d1([B.eu,B.oa,B.et,B.o9],t.Fp)
 B.P1={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.vE=new A.bZ(B.P1,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
-B.Mo=A.b(s([]),t.V)
+B.Mp=A.b(s([]),t.V)
 B.c5=new A.n(855638016)
 B.Db=new A.bt(-1,B.X,B.c5,B.ij,1)
 B.c4=new A.n(603979776)
@@ -99645,11 +99645,11 @@ B.eg=new A.h(0,3)
 B.DB=new A.bt(-2,B.X,B.c5,B.eg,1)
 B.Dr=new A.bt(0,B.X,B.c4,B.ij,2)
 B.Ds=new A.bt(0,B.X,B.bS,B.bW,5)
-B.ML=A.b(s([B.DB,B.Dr,B.Ds]),t.V)
+B.MM=A.b(s([B.DB,B.Dr,B.Ds]),t.V)
 B.DC=new A.bt(-2,B.X,B.c5,B.eg,3)
 B.Dt=new A.bt(0,B.X,B.c4,B.eg,4)
 B.Du=new A.bt(0,B.X,B.bS,B.bW,8)
-B.MM=A.b(s([B.DC,B.Dt,B.Du]),t.V)
+B.MN=A.b(s([B.DC,B.Dt,B.Du]),t.V)
 B.Dc=new A.bt(-1,B.X,B.c5,B.ij,4)
 B.Dv=new A.bt(0,B.X,B.c4,B.vY,5)
 B.Dw=new A.bt(0,B.X,B.bS,B.bW,10)
@@ -99680,14 +99680,14 @@ B.Da=new A.bt(-5,B.X,B.c5,B.lk,10)
 B.P7=new A.h(0,16)
 B.Dn=new A.bt(2,B.X,B.c4,B.P7,24)
 B.Do=new A.bt(5,B.X,B.bS,B.vZ,30)
-B.Mv=A.b(s([B.Da,B.Dn,B.Do]),t.V)
+B.Mw=A.b(s([B.Da,B.Dn,B.Do]),t.V)
 B.P5=new A.h(0,11)
 B.D9=new A.bt(-7,B.X,B.c5,B.P5,15)
 B.P9=new A.h(0,24)
 B.Dp=new A.bt(3,B.X,B.c4,B.P9,38)
 B.Dq=new A.bt(8,B.X,B.bS,B.w_,46)
 B.KM=A.b(s([B.D9,B.Dp,B.Dq]),t.V)
-B.Os=new A.d1([0,B.Mo,1,B.KG,2,B.ML,3,B.MM,4,B.KH,6,B.KI,8,B.LI,9,B.LJ,12,B.Ly,16,B.Mv,24,B.KM],A.au("d1<l,U<bt>>"))
+B.Os=new A.d1([0,B.Mp,1,B.KG,2,B.MM,3,B.MN,4,B.KH,6,B.KI,8,B.LI,9,B.LJ,12,B.Ly,16,B.Mw,24,B.KM],A.au("d1<l,U<bt>>"))
 B.iO=new A.ae(B.pP,!1,!1,!1,!1,B.q)
 B.fR=new A.ae(B.i5,!1,!1,!1,!1,B.q)
 B.S0=new A.ae(B.l5,!1,!1,!1,!1,B.q)
@@ -100148,12 +100148,12 @@ B.QA=new A.uk(3,"scale")
 B.QB=new A.uk(4,"unknown")
 B.J2=new A.ay(984363,!1)
 B.Jv=new A.bK(B.J2,18,null,null,null)
-B.Z1=new A.be("Reset password",null,null,null,null,null,null,null,null,null,null)
-B.KD=new A.tW(B.Jv,B.Z1,null,null,!0,null,B.T,!0,null,null,null,null)
+B.Z0=new A.be("Reset password",null,null,null,null,null,null,null,null,null,null)
+B.KD=new A.tW(B.Jv,B.Z0,null,null,!0,null,B.T,!0,null,null,null,null)
 B.QC=new A.lu("password",!0,B.KD,null,t.wI)
 B.Jy=new A.bK(B.p0,18,null,null,null)
-B.Z4=new A.be("Username & name",null,null,null,null,null,null,null,null,null,null)
-B.KE=new A.tW(B.Jy,B.Z4,null,null,!0,null,B.T,!0,null,null,null,null)
+B.Z3=new A.be("Username & name",null,null,null,null,null,null,null,null,null,null)
+B.KE=new A.tW(B.Jy,B.Z3,null,null,!0,null,B.T,!0,null,null,null,null)
 B.QD=new A.lu("account",!0,B.KE,null,t.wI)
 B.Bm=new A.be("Rename",null,null,null,null,null,null,null,null,null,null)
 B.QE=new A.lu("rename",!0,B.Bm,null,t.wI)
@@ -100194,8 +100194,8 @@ B.QY=new A.y(-1/0,-1/0,1/0,1/0)
 B.fE=new A.y(-1e9,-1e9,1e9,1e9)
 B.a1U=new A.ado(1,"onEdge")
 B.QZ=new A.B8(null)
-B.Mp=A.b(s([]),t.Hl)
-B.R_=new A.uz(B.Mp,B.kW,null,null)
+B.Mq=A.b(s([]),t.Hl)
+B.R_=new A.uz(B.Mq,B.kW,null,null)
 B.zP=new A.uB(0,"start")
 B.lx=new A.uB(1,"stable")
 B.R0=new A.uB(2,"changed")
@@ -100482,8 +100482,8 @@ B.Z9=new A.be("Device id copied \u2014 send it to your administrator.",null,null
 B.Ts=new A.j9(B.Z9,null,null,null,null,null,null,null,null,null,null,null,null,B.b5,null,null,null,B.o,null)
 B.Z5=new A.be("Settings saved.",null,null,null,null,null,null,null,null,null,null)
 B.Tt=new A.j9(B.Z5,null,null,null,null,null,null,null,null,null,null,null,null,B.b5,null,null,null,B.o,null)
-B.YY=new A.be("Device id copied.",null,null,null,null,null,null,null,null,null,null)
-B.Tu=new A.j9(B.YY,null,null,null,null,null,null,null,null,null,null,null,null,B.b5,null,null,null,B.o,null)
+B.YX=new A.be("Device id copied.",null,null,null,null,null,null,null,null,null,null)
+B.Tu=new A.j9(B.YX,null,null,null,null,null,null,null,null,null,null,null,null,B.b5,null,null,null,B.o,null)
 B.Z6=new A.be("Cache cleared.",null,null,null,null,null,null,null,null,null,null)
 B.Tv=new A.j9(B.Z6,null,null,null,null,null,null,null,null,null,null,null,null,B.b5,null,null,null,B.o,null)
 B.AV=new A.Cp(0,"permissive")
@@ -100896,25 +100896,25 @@ B.YF=new A.dS(B.Xe,B.Vv,B.Xq,B.UR,B.Y7,B.Vh,B.UD,B.Vi,B.VB,B.Wc,B.WP,B.VD,B.VH,B
 B.YG=new A.be("Set password",null,null,null,null,null,null,null,null,null,null)
 B.YH=new A.be("Revoke",null,null,null,null,null,null,null,null,null,null)
 B.YI=new A.be("Mark case as disposed",null,null,null,null,null,null,null,null,null,null)
-B.YK=new A.be("Register",null,null,null,null,null,null,null,null,null,null)
-B.YL=new A.be("Delete permanently",null,null,null,null,null,null,null,null,null,null)
-B.YM=new A.be("Close",null,null,null,null,null,null,null,null,null,null)
+B.YJ=new A.be("Register",null,null,null,null,null,null,null,null,null,null)
+B.YK=new A.be("Delete permanently",null,null,null,null,null,null,null,null,null,null)
+B.YL=new A.be("Close",null,null,null,null,null,null,null,null,null,null)
 B.Bl=new A.be("Sign out",null,null,null,null,null,null,null,null,null,null)
-B.YO=new A.be("Removes the offline copy. Queued cases are kept.",null,null,null,null,null,null,null,null,null,null)
-B.YP=new A.be("Case Register",null,null,null,null,null,null,null,null,null,null)
-B.YQ=new A.be("Add station",null,null,null,null,null,null,null,null,null,null)
-B.YR=new A.be("Confirm",null,null,null,null,null,null,null,null,null,null)
-B.YS=new A.be("Sign out?",null,null,null,null,null,null,null,null,null,null)
-B.YT=new A.be("No devices registered.",null,null,null,null,null,null,null,null,null,null)
-B.YU=new A.be("Settings",null,null,null,null,null,null,null,null,null,null)
-B.YV=new A.be("Cases saved while offline are pushed to the sheet here.",null,null,null,null,null,null,null,null,null,null)
-B.YW=new A.be("Clear",null,null,null,null,null,null,null,null,null,null)
-B.YZ=new A.be("Sync",null,null,null,null,null,null,null,null,null,null)
-B.Z_=new A.be("Retry",null,null,null,null,null,null,null,null,null,null)
+B.YM=new A.be("Removes the offline copy. Queued cases are kept.",null,null,null,null,null,null,null,null,null,null)
+B.YN=new A.be("Case Register",null,null,null,null,null,null,null,null,null,null)
+B.YO=new A.be("Add station",null,null,null,null,null,null,null,null,null,null)
+B.YQ=new A.be("Confirm",null,null,null,null,null,null,null,null,null,null)
+B.YR=new A.be("Sign out?",null,null,null,null,null,null,null,null,null,null)
+B.YS=new A.be("No devices registered.",null,null,null,null,null,null,null,null,null,null)
+B.YT=new A.be("Settings",null,null,null,null,null,null,null,null,null,null)
+B.YU=new A.be("Cases saved while offline are pushed to the sheet here.",null,null,null,null,null,null,null,null,null,null)
+B.YV=new A.be("Clear",null,null,null,null,null,null,null,null,null,null)
+B.YY=new A.be("Sync",null,null,null,null,null,null,null,null,null,null)
+B.YZ=new A.be("Retry",null,null,null,null,null,null,null,null,null,null)
 B.Bn=new A.be("Save",null,null,null,null,null,null,null,null,null,null)
-B.Z0=new A.be("Add account",null,null,null,null,null,null,null,null,null,null)
-B.Z2=new A.be("Save and test",null,null,null,null,null,null,null,null,null,null)
-B.Z3=new A.be("Clear cached case list",null,null,null,null,null,null,null,null,null,null)
+B.Z_=new A.be("Add account",null,null,null,null,null,null,null,null,null,null)
+B.Z1=new A.be("Save and test",null,null,null,null,null,null,null,null,null,null)
+B.Z2=new A.be("Clear cached case list",null,null,null,null,null,null,null,null,null,null)
 B.Bo=new A.be("Administration",null,null,null,null,null,null,null,null,null,null)
 B.Z7=new A.be("Operators, stations and devices",null,null,null,null,null,null,null,null,null,null)
 B.ch=new A.be("Cancel",null,null,null,null,null,null,null,null,null,null)
@@ -101410,7 +101410,7 @@ r($,"aUV","aLf",()=>A.aUo())
 r($,"b10","aLH",()=>A.ep().gJc()+"roboto/v20/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf")
 r($,"b0o","aLd",()=>A.aUb(A.rq(A.rq(A.aBx(),"window"),"FinalizationRegistry"),A.bY(new A.awH())))
 r($,"b1G","aM1",()=>new A.abG())
-s($,"b0u","aLh",()=>A.aPW(B.MA))
+s($,"b0u","aLh",()=>A.aPW(B.MB))
 s($,"b0t","ayl",()=>A.a8j(A.aNa($.aLh())))
 s($,"b0h","aLa",()=>A.aFZ(A.K(A.am(),"ParagraphBuilder")))
 s($,"aYd","aJs",()=>A.aHN(A.rq(A.rq(A.rq(A.aBx(),"window"),"flutterCanvasKit"),"Paint")))
