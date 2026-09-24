@@ -43201,7 +43201,7 @@ return A.z($async$fI,r)},
 C(a){var s,r=this,q=null,p=t.p,o=A.p4(A.a([A.dp(q,q,B.l3,q,r.w||r.x?q:r.gRY(),q,q,q,q)],p),B.a7C,B.BT)
 if(r.w)p=B.k4
 else{s=r.y
-if(s!=null)p=A.dl(new A.a7(B.kL,A.aT(A.a([B.KI,B.ad,A.O(s,q,q,q,q,q,B.bG,q,q),B.d4,A.hF(!1,B.acB,B.l,q,B.N,q,q,q,q,r.gRY(),q,q)],p),B.m,B.eo,B.k),q),q,q)
+if(s!=null)p=A.dl(new A.a7(B.kL,A.aT(A.a([B.KI,B.ad,A.O(s,q,q,q,q,q,B.bG,q,q),B.d4,A.hF(!1,B.acC,B.l,q,B.N,q,q,q,q,r.gRY(),q,q)],p),B.m,B.eo,B.k),q),q,q)
 else{p=A.a([new A.Dz(A.a([r.an2(),r.alp(),r.a6Y()],p),q)],p)
 if(r.x)p.push(B.agh)
 p=A.eE(B.be,p,B.o,B.aR,q)}}return new A.zi(3,A.iw(o,p,q,q),q)},
@@ -43380,7 +43380,7 @@ case 1:return A.y(q,r)
 case 2:return A.x(o,r)}})
 return A.z($async$qj,r)},
 alp(){var s=this,r=J.ez(s.e)?B.Fn:A.aJg(new A.ame(s),J.bz(s.e),B.oM)
-return A.iw(null,r,null,A.aIo(B.KA,B.acr,s.x?null:s.ga6S()))},
+return A.iw(null,r,null,A.aIo(B.KA,B.acs,s.x?null:s.ga6S()))},
 ud(){var s=0,r=A.A(t.H),q=this,p,o,n
 var $async$ud=A.B(function(a,b){if(a===1)return A.x(b,r)
 while(true)switch(s){case 0:p=$.a2()
@@ -43534,7 +43534,7 @@ s.push(A.ud(A.O(p,n,n,n,n,n,n,n,n),new A.aly(b,l,q),l.p(0,p)))}B.b.M(i,A.a([B.ad
 s=A.a([],t.FG)
 for(r=J.aB(o.b.e),q=t.b7;r.v();){p=r.gK().a
 s.push(new A.eM(p,A.O(p,n,n,n,n,n,n,n,n),B.bI,n,q))}B.b.M(i,A.a([B.bw,A.zA(B.L3,!0,s,new A.alz(b,l),m,k)],j))}m=A.ks(A.aT(i,B.m,B.i,B.Z),n,B.A,n,n,n,B.al)
-return A.iU(A.a([A.dF(!1,B.c3,n,n,B.N,n,n,n,n,new A.alA(a),n,n),A.hF(!1,B.acR,B.l,n,B.N,n,n,n,n,new A.alB(a),n,n)],j),m,B.acC)},
+return A.iU(A.a([A.dF(!1,B.c3,n,n,B.N,n,n,n,n,new A.alA(a),n,n),A.hF(!1,B.acR,B.l,n,B.N,n,n,n,n,new A.alB(a),n,n)],j),m,B.acD)},
 $S:79}
 A.alx.prototype={
 $1(a){return this.b.$1(new A.alw(this.a,a,this.c))},
@@ -43686,7 +43686,7 @@ $S:35}
 A.alK.prototype={
 $1(a){var s,r,q,p,o,n,m=this,l=null,k=m.c,j=A.O("Devices \u2014 "+k.a,l,l,l,l,l,l,l,l),i=t.p,h=A.a([A.O("An operator can only sign in from a registered device. The id is shown on their Settings screen.",l,l,l,l,A.k(a).p2.Q,l,l,l),B.ad],i),g=m.a,f=g.b
 if(f!=null)h.push(A.O(f,l,l,l,l,A.de(l,l,A.k(a).ax.fy,l,l,l,l,l,l,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l))
-else if(J.ez(g.a))h.push(B.acv)
+else if(J.ez(g.a))h.push(B.acw)
 else for(g=J.aB(g.a),f=m.b;g.v();){s=g.gK()
 r=s.c
 q=r?B.ik:B.JD
@@ -44110,7 +44110,7 @@ n=p.e
 l.push(A.dP(!0,B.a2,!1,o,!0,B.o,o,A.e4(),n,o,o,o,o,o,2,B.Lc,B.A,!0,o,!0,o,!1,o,B.ah,o,o,o,o,o,o,o,1,o,o,!1,"\u2022",o,o,o,o,new A.a2q(a,b,n),!1,o,!0,o,!0,o,B.ax,o,o,B.ag,B.ac,o,o,o,o,o,o,o,B.I,o,B.aA,o,o,o,o))
 l=A.aT(l,B.m,B.i,B.Z)
 n=A.dF(!1,B.c3,o,o,B.N,o,o,o,o,new A.a2r(a),o,o)
-return A.iU(A.a([n,A.hF(!1,B.act,B.l,o,B.N,o,o,o,o,A.a0j(m.a)&&B.c.ah(p.c.a.a).length===0?o:new A.a2s(a),o,o)],s),l,B.ad2)},
+return A.iU(A.a([n,A.hF(!1,B.acu,B.l,o,B.N,o,o,o,o,A.a0j(m.a)&&B.c.ah(p.c.a.a).length===0?o:new A.a2s(a),o,o)],s),l,B.ad2)},
 $S:79}
 A.a2o.prototype={
 $1(a){return this.b.$1(new A.a2n(this.a,a))},
@@ -45322,7 +45322,7 @@ p=k.r
 o=p.a.a
 o=A.O(o.length===0?"Not set":o,1,B.ap,j,j,r,j,j,j)
 p=A.m0(!0,!1,p,B.La,!1,j,j,B.BK,1,!1,new A.atV(k),j,j,j,j,!1,j,j,B.I,B.aA,j,j)
-n=A.aeb(B.KG,B.acE,k.x?j:k.gajZ())
+n=A.aeb(B.KG,B.acF,k.x?j:k.gajZ())
 g=g.ax
 g=A.O("THIS DEVICE",j,j,j,j,g==null?j:g.Bi(i.ax.b,B.aK,0.8),j,j,j)
 r=A.O("Send this id to your administrator so they can register this device. You cannot sign in until they have.",j,j,j,j,r,j,j,j)
@@ -45427,7 +45427,7 @@ r=t.p
 o=A.a([],r)
 if(f.c)o.push(B.wC)
 else o.push(A.dp(g,g,B.l3,g,f.ga_8(),g,g,g,"Refresh from Google Sheet"))
-o=A.p4(o,g,B.acp)
+o=A.p4(o,g,B.acq)
 n=A.a([],r)
 m=e.f
 if(m!=null)n.push(new A.ZM(m,g))
@@ -45800,7 +45800,7 @@ case 2:s=5
 return A.j(p.au9(),$async$vj)
 case 5:case 3:return A.y(null,r)}})
 return A.z($async$vj,r)},
-C(a){var s,r,q,p,o,n,m,l=this,k=null,j=A.k(a),i=a.eV(t.T).x.a,h=A.p4(k,k,B.acw),g=j.ax,f=g.d
+C(a){var s,r,q,p,o,n,m,l=this,k=null,j=A.k(a),i=a.eV(t.T).x.a,h=A.p4(k,k,B.acx),g=j.ax,f=g.d
 if(f==null)f=g.b
 s=i==null
 r=(s?k:i.d==="admin")===!0?B.pp:B.JC
@@ -45815,7 +45815,7 @@ p="Operator \u2014 "+(p==null?"no station":p)}o=j.p2
 n=o.Q
 m=t.p
 p=A.a([A.f2(new A.a7(B.kJ,A.aV(A.a([new A.KZ(r,f,k),B.dL,A.bg(A.aT(A.a([q,A.O(p,k,k,k,k,n,k,k,k)],m),B.S,B.i,B.k),1),A.ajD(B.Kb,B.BQ,l.gal4())],m),B.m,B.i,B.k,k),k),k,k,k)],m)
-if((s?k:i.d==="admin")===!0)B.b.M(p,A.a([B.bm,A.f2(A.ip(k,k,k,!0,B.KL,k,new A.axv(a),B.acL,B.BT,B.px,k),k,k,k)],m))
+if((s?k:i.d==="admin")===!0)B.b.M(p,A.a([B.bm,A.f2(A.ip(k,k,k,!0,B.KL,k,new A.axv(a),B.acm,B.BT,B.px,k),k,k,k)],m))
 p.push(B.eO)
 p.push(l.uN(j,"YOUR EMAIL"))
 p.push(B.bx)
@@ -45851,10 +45851,10 @@ f=l.x
 s=f===0
 f=A.O(s?"Nothing waiting to sync":""+f+" case(s) waiting to sync",k,k,k,k,k,k,k,k)
 if(l.w)s=B.a6I
-else{r=A.dF(!1,B.acA,k,k,B.N,k,k,k,k,s?k:l.galu(),k,k)
-s=r}p.push(A.f2(A.ip(k,k,k,!0,B.Kr,k,k,B.acx,f,s,k),k,k,k))
+else{r=A.dF(!1,B.acB,k,k,B.N,k,k,k,k,s?k:l.galu(),k,k)
+s=r}p.push(A.f2(A.ip(k,k,k,!0,B.Kr,k,k,B.acy,f,s,k),k,k,k))
 p.push(B.bm)
-p.push(A.f2(A.ip(k,k,k,!0,B.KK,k,k,B.acn,B.acF,A.dF(!1,B.BS,k,k,B.N,k,k,k,k,l.ga8i(),k,k),k),k,k,k))
+p.push(A.f2(A.ip(k,k,k,!0,B.KK,k,k,B.aco,B.acG,A.dF(!1,B.BS,k,k,B.N,k,k,k,k,l.ga8i(),k,k),k),k,k,k))
 p.push(B.eO)
 s=g.RG
 f=s==null?g.k2:s
@@ -45882,7 +45882,7 @@ $S:0}
 A.axp.prototype={
 $1(a){var s=null,r=this.a.x
 r=A.O(r>0?"You have "+r+" case(s) not yet synced. Signing out keeps them on this device, but they cannot be sent until someone signs in again.":"You will need your username and password to sign back in.",s,s,s,s,s,s,s,s)
-return A.iU(A.a([A.dF(!1,B.c3,s,s,B.N,s,s,s,s,new A.axn(a),s,s),A.hF(!1,B.BQ,B.l,s,B.N,s,s,s,s,new A.axo(a),s,s)],t.p),r,B.acu)},
+return A.iU(A.a([A.dF(!1,B.c3,s,s,B.N,s,s,s,s,new A.axn(a),s,s),A.hF(!1,B.BQ,B.l,s,B.N,s,s,s,s,new A.axo(a),s,s)],t.p),r,B.acv)},
 $S:48}
 A.axn.prototype={
 $0(){A.bv(this.a,!1).cv(!1)
@@ -45969,7 +45969,7 @@ m=t.p
 k=A.a([k,A.dp(g,g,B.Kg,g,f.gaf(q)?g:new A.ays(h,n,q),g,g,g,"Export")],m)
 if(r)k.push(B.wC)
 else k.push(A.dp(g,g,B.l3,g,h.gSZ(),g,g,g,g))
-k=A.p4(k,g,B.aco)
+k=A.p4(k,g,B.acp)
 if(l.gaf(s))f=h.e&&h.r?B.k4:B.afj
 else{j=A.a([new A.XE(n,q,g)],m)
 i=e.e
@@ -46241,7 +46241,7 @@ r=t.p
 return A.f2(new A.a7(B.Id,A.aV(A.a([q,B.d3,A.bg(A.aT(A.a([p,A.O(o,l,l,l,l,s,l,l,l)],r),B.S,B.i,B.k),1),A.dF(!1,B.BS,l,l,B.N,l,l,l,l,m.f,l,l)],r),B.m,B.i,B.k,l),l),l,j,B.J)}}
 A.wM.prototype={
 C(a){var s=null
-return A.nZ(!0,A.aT(A.a([A.ip(s,s,s,!0,B.Kh,s,new A.ar5(a),B.acG,B.acd,s,s),A.ip(s,s,s,!0,B.KH,s,new A.ar6(a),B.ack,B.aci,s,s),B.bm],t.p),B.m,B.i,B.Z),!0,B.J,!0,!0)}}
+return A.nZ(!0,A.aT(A.a([A.ip(s,s,s,!0,B.Kh,s,new A.ar5(a),B.acH,B.acd,s,s),A.ip(s,s,s,!0,B.KH,s,new A.ar6(a),B.ack,B.aci,s,s),B.bm],t.p),B.m,B.i,B.Z),!0,B.J,!0,!0)}}
 A.ar5.prototype={
 $0(){A.bv(this.a,!1).cv("csv")
 return null},
@@ -102144,9 +102144,9 @@ B.Fb=new A.KP(1,"viewport")
 B.Ff=new A.pc(null,null,null,null,null,null,null)
 B.K2=new A.aq(62463,!1)
 B.KC=new A.bj(B.K2,null,null,null,null)
-B.acm=new A.aY("Weekly and monthly reports",null,null,null,null,null,null,null,null,null,null)
-B.acq=new A.aY("Sent to every Administrator who has set their own email under Settings.",null,null,null,null,null,null,null,null,null,null)
-B.LZ=new A.qi(B.KC,B.acm,B.acq,null,null,null,null,!0,null,null,null,null)
+B.acn=new A.aY("Weekly and monthly reports",null,null,null,null,null,null,null,null,null,null)
+B.acr=new A.aY("Sent to every Administrator who has set their own email under Settings.",null,null,null,null,null,null,null,null,null,null)
+B.LZ=new A.qi(B.KC,B.acn,B.acr,null,null,null,null,!0,null,null,null,null)
 B.agY=new A.anY(0,"elevated")
 B.Fg=new A.pb(null,null,null,B.LZ,null)
 B.Qq=A.a(s([]),t.Hb)
@@ -102167,8 +102167,8 @@ B.acN=new A.aY("No accounts yet.",null,null,null,null,null,null,null,null,null,n
 B.Fm=new A.fr(B.T,null,null,B.acN,null)
 B.Iz=new A.a0(32,32,32,32)
 B.bG=new A.m_(2,"center")
-B.acy=new A.aY("No stations yet.\nAdd one before creating operators.",null,null,B.bG,null,null,null,null,null,null,null)
-B.a2G=new A.a7(B.Iz,B.acy,null)
+B.acz=new A.aY("No stations yet.\nAdd one before creating operators.",null,null,B.bG,null,null,null,null,null,null,null)
+B.a2G=new A.a7(B.Iz,B.acz,null)
 B.Fn=new A.fr(B.T,null,null,B.a2G,null)
 B.agX=new A.alc(0,"material")
 B.nQ=new A.jX(4,0,null,null,null,null,null,null,null,null)
@@ -102997,10 +102997,10 @@ B.Nm=A.a(s([B.BX,B.C0,B.C1,B.C2,B.C3,B.C4,B.C5,B.C6,B.C7,B.C8,B.BY,B.BZ,B.C_,B.a
 B.pX=A.a(s(["Pending","Yes","No"]),t.s)
 B.acT=new A.aY("Monitoring Officer (read only)",null,null,null,null,null,null,null,null,null,null)
 B.Hi=new A.eM("monitor",B.acT,B.bI,null,t.b7)
-B.acs=new A.aY("Operator \u2014 one station",null,null,null,null,null,null,null,null,null,null)
-B.Hj=new A.eM("operator",B.acs,B.bI,null,t.b7)
-B.acI=new A.aY("Administrator \u2014 all",null,null,null,null,null,null,null,null,null,null)
-B.Hk=new A.eM("admin",B.acI,B.bI,null,t.b7)
+B.act=new A.aY("Operator \u2014 one station",null,null,null,null,null,null,null,null,null,null)
+B.Hj=new A.eM("operator",B.act,B.bI,null,t.b7)
+B.acJ=new A.aY("Administrator \u2014 all",null,null,null,null,null,null,null,null,null,null)
+B.Hk=new A.eM("admin",B.acJ,B.bI,null,t.b7)
 B.Nn=A.a(s([B.Hi,B.Hj,B.Hk]),t.FG)
 B.a7m=new A.Du(0,"left")
 B.a7n=new A.Du(1,"right")
@@ -105037,12 +105037,12 @@ B.a3s=new A.uU(3,"scale")
 B.a3t=new A.uU(4,"unknown")
 B.K5=new A.aq(984363,!1)
 B.KJ=new A.bj(B.K5,18,null,null,null)
-B.acD=new A.aY("Reset password",null,null,null,null,null,null,null,null,null,null)
-B.LY=new A.qi(B.KJ,B.acD,null,null,!0,null,B.J,!0,null,null,null,null)
+B.acE=new A.aY("Reset password",null,null,null,null,null,null,null,null,null,null)
+B.LY=new A.qi(B.KJ,B.acE,null,null,!0,null,B.J,!0,null,null,null,null)
 B.a3u=new A.lK("password",!0,B.LY,null,t.wI)
 B.KM=new A.bj(B.il,18,null,null,null)
-B.acH=new A.aY("Username & name",null,null,null,null,null,null,null,null,null,null)
-B.M_=new A.qi(B.KM,B.acH,null,null,!0,null,B.J,!0,null,null,null,null)
+B.acI=new A.aY("Username & name",null,null,null,null,null,null,null,null,null,null)
+B.M_=new A.qi(B.KM,B.acI,null,null,!0,null,B.J,!0,null,null,null,null)
 B.a3v=new A.lK("account",!0,B.M_,null,t.wI)
 B.BR=new A.aY("Rename",null,null,null,null,null,null,null,null,null,null)
 B.a3w=new A.lK("rename",!0,B.BR,null,t.wI)
@@ -105375,12 +105375,12 @@ B.acQ=new A.aY("Case updated on the Google Sheet.",null,null,null,null,null,null
 B.a6V=new A.ju(B.acQ,null,null,null,null,null,null,null,null,null,null,null,null,B.aT,null,null,null,B.o,null)
 B.acO=new A.aY("Device id copied \u2014 send it to your administrator.",null,null,null,null,null,null,null,null,null,null)
 B.a6W=new A.ju(B.acO,null,null,null,null,null,null,null,null,null,null,null,null,B.aT,null,null,null,B.o,null)
-B.acJ=new A.aY("Settings saved.",null,null,null,null,null,null,null,null,null,null)
-B.a6X=new A.ju(B.acJ,null,null,null,null,null,null,null,null,null,null,null,null,B.aT,null,null,null,B.o,null)
-B.acz=new A.aY("Device id copied.",null,null,null,null,null,null,null,null,null,null)
-B.a6Y=new A.ju(B.acz,null,null,null,null,null,null,null,null,null,null,null,null,B.aT,null,null,null,B.o,null)
-B.acK=new A.aY("Cache cleared.",null,null,null,null,null,null,null,null,null,null)
-B.a6Z=new A.ju(B.acK,null,null,null,null,null,null,null,null,null,null,null,null,B.aT,null,null,null,B.o,null)
+B.acK=new A.aY("Settings saved.",null,null,null,null,null,null,null,null,null,null)
+B.a6X=new A.ju(B.acK,null,null,null,null,null,null,null,null,null,null,null,null,B.aT,null,null,null,B.o,null)
+B.acA=new A.aY("Device id copied.",null,null,null,null,null,null,null,null,null,null)
+B.a6Y=new A.ju(B.acA,null,null,null,null,null,null,null,null,null,null,null,null,B.aT,null,null,null,B.o,null)
+B.acL=new A.aY("Cache cleared.",null,null,null,null,null,null,null,null,null,null)
+B.a6Z=new A.ju(B.acL,null,null,null,null,null,null,null,null,null,null,null,null,B.aT,null,null,null,B.o,null)
 B.Bq=new A.Dg(0,"permissive")
 B.a7_=new A.Dg(1,"normal")
 B.a70=new A.Dg(2,"forced")
@@ -105800,26 +105800,26 @@ B.aci=new A.aY("Summary report",null,null,null,null,null,null,null,null,null,nul
 B.acj=new A.aY("Delete permanently",null,null,null,null,null,null,null,null,null,null)
 B.ack=new A.aY("Totals, percentages and breakdowns",null,null,null,null,null,null,null,null,null,null)
 B.acl=new A.aY("Close",null,null,null,null,null,null,null,null,null,null)
+B.acm=new A.aY("Operators, stations, devices and alert emails",null,null,null,null,null,null,null,null,null,null)
 B.BQ=new A.aY("Sign out",null,null,null,null,null,null,null,null,null,null)
-B.acn=new A.aY("Removes the offline copy. Queued cases are kept.",null,null,null,null,null,null,null,null,null,null)
-B.aco=new A.aY("Summary",null,null,null,null,null,null,null,null,null,null)
-B.acp=new A.aY("Case Register",null,null,null,null,null,null,null,null,null,null)
-B.acr=new A.aY("Add station",null,null,null,null,null,null,null,null,null,null)
-B.act=new A.aY("Confirm",null,null,null,null,null,null,null,null,null,null)
-B.acu=new A.aY("Sign out?",null,null,null,null,null,null,null,null,null,null)
-B.acv=new A.aY("No devices registered.",null,null,null,null,null,null,null,null,null,null)
-B.acw=new A.aY("Settings",null,null,null,null,null,null,null,null,null,null)
-B.acx=new A.aY("Cases saved while offline are pushed to the sheet here.",null,null,null,null,null,null,null,null,null,null)
+B.aco=new A.aY("Removes the offline copy. Queued cases are kept.",null,null,null,null,null,null,null,null,null,null)
+B.acp=new A.aY("Summary",null,null,null,null,null,null,null,null,null,null)
+B.acq=new A.aY("Case Register",null,null,null,null,null,null,null,null,null,null)
+B.acs=new A.aY("Add station",null,null,null,null,null,null,null,null,null,null)
+B.acu=new A.aY("Confirm",null,null,null,null,null,null,null,null,null,null)
+B.acv=new A.aY("Sign out?",null,null,null,null,null,null,null,null,null,null)
+B.acw=new A.aY("No devices registered.",null,null,null,null,null,null,null,null,null,null)
+B.acx=new A.aY("Settings",null,null,null,null,null,null,null,null,null,null)
+B.acy=new A.aY("Cases saved while offline are pushed to the sheet here.",null,null,null,null,null,null,null,null,null,null)
 B.BS=new A.aY("Clear",null,null,null,null,null,null,null,null,null,null)
-B.acA=new A.aY("Sync",null,null,null,null,null,null,null,null,null,null)
-B.acB=new A.aY("Retry",null,null,null,null,null,null,null,null,null,null)
+B.acB=new A.aY("Sync",null,null,null,null,null,null,null,null,null,null)
+B.acC=new A.aY("Retry",null,null,null,null,null,null,null,null,null,null)
 B.mB=new A.aY("Save",null,null,null,null,null,null,null,null,null,null)
-B.acC=new A.aY("Add account",null,null,null,null,null,null,null,null,null,null)
-B.acE=new A.aY("Save and test",null,null,null,null,null,null,null,null,null,null)
-B.acF=new A.aY("Clear cached case list",null,null,null,null,null,null,null,null,null,null)
-B.acG=new A.aY("Every filtered record, opens in Excel",null,null,null,null,null,null,null,null,null,null)
+B.acD=new A.aY("Add account",null,null,null,null,null,null,null,null,null,null)
+B.acF=new A.aY("Save and test",null,null,null,null,null,null,null,null,null,null)
+B.acG=new A.aY("Clear cached case list",null,null,null,null,null,null,null,null,null,null)
+B.acH=new A.aY("Every filtered record, opens in Excel",null,null,null,null,null,null,null,null,null,null)
 B.BT=new A.aY("Administration",null,null,null,null,null,null,null,null,null,null)
-B.acL=new A.aY("Operators, stations and devices",null,null,null,null,null,null,null,null,null,null)
 B.acM=new A.aY("Edit",null,null,null,null,null,null,null,null,null,null)
 B.c3=new A.aY("Cancel",null,null,null,null,null,null,null,null,null,null)
 B.acR=new A.aY("Create",null,null,null,null,null,null,null,null,null,null)
