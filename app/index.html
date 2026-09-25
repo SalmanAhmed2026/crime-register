@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crime Register — Android app</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <style>
+    :root { --navy: #1b365d; --ink: #1f2933; --soft: #5f6b7a; --line: #d9e0e8; --bg: #f4f6f9; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink);
+           font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    header { background: var(--navy); color: #fff; padding: 20px 16px; text-align: center; }
+    header img { width: 64px; height: 64px; border-radius: 50%; background: #fff; }
+    header h1 { margin: 8px 0 0; font-size: 22px; }
+    main { max-width: 520px; margin: 0 auto; padding: 16px; }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin-bottom: 14px; }
+    .btn { display: block; text-align: center; background: var(--navy); color: #fff; text-decoration: none;
+           font-weight: 600; font-size: 18px; padding: 14px; border-radius: 10px; }
+    .muted { color: var(--soft); font-size: 14px; }
+    ol { padding-left: 20px; margin: 8px 0 0; }
+    li { margin-bottom: 6px; }
+    a.plain { color: var(--navy); }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../icons/Icon-192.png" alt="">
+    <h1>Crime Register — Android app</h1>
+  </header>
+  <main>
+    <div class="card">
+      <p id="status">The download should start by itself. If it does not, tap the button.</p>
+      <a class="btn" id="get" href="../CrimeRegister.apk" download="CrimeRegister.apk">Download CrimeRegister.apk</a>
+      <p class="muted">For Android phones. On an iPhone or a computer, use the
+        <a class="plain" href="../">web version</a> instead.</p>
+    </div>
+    <div class="card">
+      <strong>Installing</strong>
+      <ol>
+        <li>Open the downloaded file (from the notification, or Files → Downloads).</li>
+        <li>If the phone asks, allow <em>Install unknown apps</em> for Chrome, then tap <em>Install</em>.</li>
+        <li>Open Crime Register, send your <em>Device id</em> to the Administrator, and wait for approval before signing in.</li>
+      </ol>
+      <p class="muted">Updating: install the new file over the old one. Your sign-in and cases stay.</p>
+    </div>
+  </main>
+  <script>
+    // Start the download once; the button stays for a second try.
+    setTimeout(function () { window.location.href = '../CrimeRegister.apk'; }, 600);
+  </script>
+</body>
+</html>
