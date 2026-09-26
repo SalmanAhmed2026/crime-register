@@ -39,6 +39,50 @@
       if (el) el.remove();
     });
   </script>
-  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    // A newly published version loads by itself. Each build stamps its files
+    // (?v=…); when the tab is shown again, the page asks the server whether
+    // its stamp is still the latest. After a longer absence it simply
+    // reloads; after a short one it offers a button, so a half-typed FIR is
+    // never lost.
+    (function () {
+      function stampOf(html) {
+        var m = /flutter_bootstrap\.js\?v=(\d+)/.exec(html);
+        return m ? m[1] : null;
+      }
+      var mine = stampOf(document.documentElement.outerHTML);
+      if (!mine) return;
+      var hiddenAt = 0;
+      function offer() {
+        if (document.getElementById('new-version')) return;
+        var bar = document.createElement('div');
+        bar.id = 'new-version';
+        bar.textContent = 'A new version of Crime Register is ready — tap to load it';
+        bar.style.cssText = 'position:fixed;left:0;right:0;top:0;z-index:9999;padding:10px;' +
+          'text-align:center;background:#1a365d;color:#fff;font:600 14px system-ui,sans-serif;cursor:pointer';
+        bar.onclick = function () { location.reload(); };
+        document.body.appendChild(bar);
+      }
+      function check(awayMs) {
+        fetch('index.html?check=' + Date.now(), { cache: 'no-store' })
+          .then(function (r) { return r.text(); })
+          .then(function (html) {
+            var latest = stampOf(html);
+            if (!latest || latest === mine) return;
+            if (awayMs > 2 * 60 * 1000) location.reload(); else offer();
+          })
+          .catch(function () {});
+      }
+      document.addEventListener('visibilitychange', function () {
+        if (document.visibilityState === 'hidden') { hiddenAt = Date.now(); return; }
+        check(hiddenAt ? Date.now() - hiddenAt : 0);
+      });
+      // Someone who keeps the tab open all day is still told.
+      setInterval(function () {
+        if (document.visibilityState === 'visible') check(0);
+      }, 15 * 60 * 1000);
+    })();
+  </script>
+  <script src="flutter_bootstrap.js?v=20260927005359" async></script>
 </body>
 </html>

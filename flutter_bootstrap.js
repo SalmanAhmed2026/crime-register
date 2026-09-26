@@ -6,11 +6,22 @@ Read more: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts
 if (!window._flutter) {
   window._flutter = {};
 }
-_flutter.buildConfig = {"engineRevision":"a18df97ca57a249df5d8d68cd0820600223ce262","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
+_flutter.buildConfig = {"engineRevision":"a18df97ca57a249df5d8d68cd0820600223ce262","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js?v=20260927005359"}]};
 
 
-_flutter.loader.load({
-  serviceWorkerSettings: {
-    serviceWorkerVersion: "2045412878"
-  }
-});
+// Always the live version. An earlier build registered a service worker that
+// kept an offline copy of the whole app, so every update stayed invisible
+// until the browser's data was cleared by hand. No worker is registered any
+// more, and any left over from before is removed here, with its caches.
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(function (regs) {
+    regs.forEach(function (r) { r.unregister(); });
+  });
+}
+if (window.caches) {
+  caches.keys().then(function (keys) {
+    keys.forEach(function (k) { caches.delete(k); });
+  });
+}
+
+_flutter.loader.load();
