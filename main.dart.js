@@ -9592,9 +9592,11 @@ this.a=b},
 YI:function YI(a,b,c){this.c=a
 this.d=b
 this.a=c},
-tE:function tE(a,b,c){this.c=a
-this.d=b
-this.a=c},
+tE:function tE(a,b,c,d){var _=this
+_.c=a
+_.d=b
+_.e=c
+_.a=d},
 a1u:function a1u(a){var _=this
 _.d=!1
 _.e=a
@@ -9847,15 +9849,18 @@ if(q.b.test(r))return r
 s=r.toLowerCase()
 return B.l.n(B.qq,s)?s:"default"},
 aNW(a){return B.n.P(A.j(a==null?"":a)).toLowerCase()==="notification"?"notification":"call"},
-aNU(a){var s,r,q,p,o,n,m=t.f.b(a)?a:B.mN,l=m.h(0,"customSounds")
-A.aNS(m.h(0,"alertTime"))
-s=A.aNV(m.h(0,"alertSound"))
-r=J.c(m.h(0,"alertVibrate"),!1)
-q=A.aNT(m.h(0,"alertSchedule"))
-p=A.aNW(m.h(0,"alertStyle"))
-if(t.j.b(l)){o=A.a([],t.uw)
-for(n=J.at(l);n.u();)o.push(A.aT1(n.gM()))}else o=B.Co
-return new A.j4(s,!r,q,p,o,A.aNR(m.h(0,"agencies")),!J.c(m.h(0,"autoReminders"),!1))},
+aNU(a){var s,r,q,p,o,n,m,l,k=t.f.b(a)?a:B.mN,j=k.h(0,"customSounds")
+A.aNS(k.h(0,"alertTime"))
+s=A.aNV(k.h(0,"alertSound"))
+r=J.c(k.h(0,"alertVibrate"),!1)
+q=A.aNT(k.h(0,"alertSchedule"))
+p=A.aNW(k.h(0,"alertStyle"))
+if(t.j.b(j)){o=A.a([],t.uw)
+for(n=J.at(j);n.u();)o.push(A.aT1(n.gM()))}else o=B.Co
+n=A.aNR(k.h(0,"agencies"))
+m=J.c(k.h(0,"autoReminders"),!1)
+l=k.h(0,"unitName")
+return new A.j4(s,!r,q,p,o,n,!m,B.n.P(A.j(l==null?"":l)))},
 aT1(a){var s,r,q=t.f.b(a)?a:B.mN,p=q.h(0,"id")
 p=A.j(p==null?"":p)
 s=q.h(0,"name")
@@ -9979,14 +9984,15 @@ _.c=c
 _.d=d},
 a6J:function a6J(a,b){this.a=a
 this.b=b},
-j4:function j4(a,b,c,d,e,f,g){var _=this
+j4:function j4(a,b,c,d,e,f,g,h){var _=this
 _.b=a
 _.c=b
 _.d=c
 _.e=d
 _.f=e
 _.r=f
-_.w=g},
+_.w=g
+_.x=h},
 C6:function C6(a,b,c){this.a=a
 this.b=b
 this.d=c},
@@ -10643,8 +10649,8 @@ _.c=c
 _.d=d
 _.e=e
 _.f=f},
-aQU(a1){var s=0,r=A.r(t.H3),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
-var $async$aQU=A.t(function(a2,a3){if(a2===1)return A.o(a3,r)
+aQU(a1,a2){var s=0,r=A.r(t.H3),q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
+var $async$aQU=A.t(function(a3,a4){if(a3===1)return A.o(a4,r)
 while(true)switch(s){case 0:c=new A.aM2()
 b=A.u3(null,null,null,null,null,null,null,null,null,B.dA,null,null,null,null,B.de,null,!0,null,null,null,null)
 a=t.s
@@ -10671,7 +10677,7 @@ f=i.b++
 d=i.e
 d===$&&A.b()
 i.c.E(0,new A.EM(i,f,0,g,d,A.a([],a),null,null,0))
-a=A.b6U(new A.aM0(c,a1,new A.aM_(c),b,k),new A.aM1(c,a0+", "+p+":"+o),B.VE,B.aXS)
+a=A.b6U(new A.aM0(c,a1,a2,new A.aM_(c),b,k),new A.aM1(c,a0+", "+p+":"+o),B.VE,B.aXS)
 a.a4N(h,null)
 l.push(a)
 q=h.cA()
@@ -10683,12 +10689,13 @@ aM2:function aM2(){},
 aM_:function aM_(a){this.a=a},
 aM1:function aM1(a,b){this.a=a
 this.b=b},
-aM0:function aM0(a,b,c,d,e){var _=this
+aM0:function aM0(a,b,c,d,e,f){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
-_.e=e},
+_.e=e
+_.f=f},
 ky(){var s=0,r=A.r(t.N),q,p,o
 var $async$ky=A.t(function(a,b){if(a===1)return A.o(b,r)
 while(true)switch(s){case 0:o=A
@@ -49445,10 +49452,13 @@ A.avb.prototype={
 $0(){return A.aW(this.b,!1).hd(A.n2(new A.ava(this.a),null,t.z))},
 $S:0}
 A.ava.prototype={
-$1(a){var s=this.a,r=s.w
-if(r==null)r=B.mx
-s.a.toString
-return new A.tE(r,null,null)},
+$1(a){var s,r,q=this.a,p=q.w
+if(p==null)p=B.mx
+s=q.f
+r=s==null?null:s.x
+s=(r==null?"":r).length===0?"Crime Register":s.x
+q.a.toString
+return new A.tE(p,s,null,null)},
 $S:288}
 A.auG.prototype={
 $1(a){var s,r,q=null,p=t.p,o=A.aA(A.a([A.b1(A.x("FIR "+a.w+"/"+a.f+" \xb7 "+a.r,q,q,q,q,B.fp,q,q,q),1),new A.FC(a,q)],p),B.J,B.C,B.H,q),n=a.z
@@ -52352,7 +52362,7 @@ i.toString
 m=i.f
 q=3
 s=6
-return A.i(A.aQU(a),$async$x5)
+return A.i(A.aQU(a,n.a.d),$async$x5)
 case 6:l=c
 i=n.d?"Weekly":"Daily"
 k=i+" FIR report "+A.eF(n.e)+".pdf"
@@ -52406,7 +52416,7 @@ e=A.wN(B.py,A.x(f?"Week ending "+A.eQ(A.eF(e)):A.eQ(A.eF(e)),a3,a3,a3,a3,a3,a3,a
 f=a2.f
 d=A.x(f?"Making the PDF\u2026":"Download PDF",a3,a3,a3,a3,a3,a3,a3,a3)
 c=t.p
-d=A.a([new A.xF(B.aFo,q,new A.aGm(a2),a3,t.Y0),B.aP,e,B.aP,A.CO(B.XF,d,f?a3:new A.aGn(a2,n)),B.jH,A.x(n.a,a3,a3,a3,a3,a5.r,a3,a3,a3),A.x("Investigation South, Karachi \xb7 "+n.ga3b(),a3,a3,a3,a3,s,a3,a3,a3),B.aP,A.aA(A.a([m.$3("Registered",""+n.d.length,i),m.$3("Complete",""+n.e,l)],c),B.J,B.C,B.H,a3),A.aA(A.a([m.$3("Missing",""+n.f,k),m.$3("Rule broken",""+n.r,j)],c),B.J,B.C,B.H,a3),A.aA(A.a([m.$3("Disposed",""+n.x+" \xb7 "+n.y+" in 14 days",i),m.$3("Past day 14",""+n.Q,j)],c),B.J,B.C,B.H,a3),A.aA(A.a([m.$3("Requests waiting",""+n.as,i)],c),B.J,B.C,B.H,a3)],c)
+d=A.a([new A.xF(B.aFo,q,new A.aGm(a2),a3,t.Y0),B.aP,e,B.aP,A.CO(B.XF,d,f?a3:new A.aGn(a2,n)),B.jH,A.x(n.a,a3,a3,a3,a3,a5.r,a3,a3,a3),A.x(a2.a.d+" \xb7 "+n.ga3b(),a3,a3,a3,a3,s,a3,a3,a3),B.aP,A.aA(A.a([m.$3("Registered",""+n.d.length,i),m.$3("Complete",""+n.e,l)],c),B.J,B.C,B.H,a3),A.aA(A.a([m.$3("Missing",""+n.f,k),m.$3("Rule broken",""+n.r,j)],c),B.J,B.C,B.H,a3),A.aA(A.a([m.$3("Disposed",""+n.x+" \xb7 "+n.y+" in 14 days",i),m.$3("Past day 14",""+n.Q,j)],c),B.J,B.C,B.H,a3),A.aA(A.a([m.$3("Requests waiting",""+n.as,i)],c),B.J,B.C,B.H,a3)],c)
 q=n.w
 if(q>0)d.push(new A.W(B.vI,A.x(""+q+u.F,a3,a3,a3,a3,s,a3,a3,a3),a3))
 d.push(B.jH)
@@ -54509,14 +54519,14 @@ s.toString
 return A.aPz(A.a([q,A.i9("Page "+(B.l.i5(p.cx.cx,s)+1)+" of "+p.cx.cx.length,B.t3,r,r)],t.n_),B.aVp)},
 $S:438}
 A.aM0.prototype={
-$1(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.a,g=j.b,f=j.c,e=t.n_
-e=A.a([A.i9(h.$1(g.a),A.u3(i,i,i,i,i,i,i,i,i,B.dA,i,i,18,i,B.de,i,!0,i,i,i,i),i,i),A.i9(h.$1("Investigation South, Karachi - "+g.ga3b()),B.b3h,i,i),new A.PQ(),A.aPz(A.a([f.$3("FIRs registered",""+g.d.length,B.r2),f.$3("Complete",""+g.e,B.aXz),f.$3("Missing",""+g.f,B.aXy),f.$3("Rule broken",""+g.r,B.Ib)],e),B.qO),new A.i5(i,6,i),A.aPz(A.a([f.$3("Disposed",""+g.x+" - "+g.y+" within 14 days",B.r2),f.$3("Past day 14 (open)",""+g.Q+" FIRs",B.Ib),f.$3("Change requests",""+g.as+" waiting",B.r2)],e),B.qO)],e)
+$1(a){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.a,g=j.b,f=j.d,e=t.n_
+e=A.a([A.i9(h.$1(g.a),A.u3(i,i,i,i,i,i,i,i,i,B.dA,i,i,18,i,B.de,i,!0,i,i,i,i),i,i),A.i9(h.$1(j.c+" - "+g.ga3b()),B.b3h,i,i),new A.PQ(),A.aPz(A.a([f.$3("FIRs registered",""+g.d.length,B.r2),f.$3("Complete",""+g.e,B.aXz),f.$3("Missing",""+g.f,B.aXy),f.$3("Rule broken",""+g.r,B.Ib)],e),B.qO),new A.i5(i,6,i),A.aPz(A.a([f.$3("Disposed",""+g.x+" - "+g.y+" within 14 days",B.r2),f.$3("Past day 14 (open)",""+g.Q+" FIRs",B.Ib),f.$3("Change requests",""+g.as+" waiting",B.r2)],e),B.qO)],e)
 f=g.w
 if(f>0)e.push(new A.wS(B.V5,A.i9(h.$1(""+f+u.F),B.t3,i,i)))
 e.push(new A.i5(i,12,i))
-f=j.d
+f=j.e
 e.push(A.i9("Pending files - where they are now",f,i,i))
-s=j.e
+s=j.f
 e.push(A.i9(h.$1(s.length===0?"None":s),i,i,i))
 e.push(new A.i5(i,12,i))
 e.push(A.i9("Station by station (weakest first)",f,i,i))
@@ -115614,7 +115624,7 @@ B.aVL=new A.bk([B.ed,B.aVw,B.i4,B.aVJ,B.i5,B.aVt],A.ac("bk<mi,aX<k,O<+hour,minut
 B.i7=new A.AK(B.aVL)
 B.Co=A.a(s([]),t.uw)
 B.f4=A.a(s(["SIU / CIA","AVLC","CTD"]),t.s)
-B.tT=new A.j4("default",!0,B.i7,"call",B.Co,B.f4,!0)
+B.tT=new A.j4("default",!0,B.i7,"call",B.Co,B.f4,!0,"")
 B.P3=new A.fs(0,1)
 B.P4=new A.fs(0,-1)
 B.tU=new A.fs(1,0)
