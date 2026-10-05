@@ -5,12 +5,12 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Crime Register — FIR tracking with 14-day disposal deadline alerts.">
+  <meta name="description" content="FIR Monitoring System (FMS) — 14-day disposal tracking and alerts.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Crime Register">
+  <meta name="apple-mobile-web-app-title" content="FMS">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <meta name="theme-color" content="#1a365d">
@@ -18,7 +18,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>Crime Register</title>
+  <title>FIR Monitoring System (FMS)</title>
   <link rel="manifest" href="manifest.json">
 
   <style>
@@ -32,7 +32,7 @@
   </style>
 </head>
 <body>
-  <div id="loading">Loading Crime Register…</div>
+  <div id="loading">Loading FIR Monitoring System…</div>
   <script>
     window.addEventListener('flutter-first-frame', function () {
       var el = document.getElementById('loading');
@@ -57,7 +57,7 @@
         if (document.getElementById('new-version')) return;
         var bar = document.createElement('div');
         bar.id = 'new-version';
-        bar.textContent = 'A new version of Crime Register is ready — tap to load it';
+        bar.textContent = 'A new version of FMS is ready — tap to load it';
         bar.style.cssText = 'position:fixed;left:0;right:0;top:0;z-index:9999;padding:10px;' +
           'text-align:center;background:#1a365d;color:#fff;font:600 14px system-ui,sans-serif;cursor:pointer';
         bar.onclick = function () { location.reload(); };
@@ -83,6 +83,6 @@
       }, 15 * 60 * 1000);
     })();
   </script>
-  <script src="flutter_bootstrap.js?v=20261003230052" async></script>
+  <script src="flutter_bootstrap.js?v=20261005131015" async></script>
 </body>
 </html>

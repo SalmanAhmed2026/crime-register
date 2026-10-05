@@ -1,6 +1,6 @@
 {
-    "name": "Crime Register",
-    "short_name": "Crime Register",
+    "name": "FIR Monitoring System (FMS)",
+    "short_name": "FMS",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#f4f6f9",
